@@ -259,6 +259,9 @@ class Main extends Component {
                             <div className='telegram-link'>
                                 <a href='http://t.me/sellusnalogbot' target='_blank'><Icon name='telegram' size='large' />@sellusnalogbot</a>
                             </div>
+                            <div className='github-link'>
+                                <a href='https://github.com/miksrv/hakaton-audition/' target='_blank'><Icon name='github' size='large' />GitHub</a>
+                            </div>
                         </Grid.Column>
                         <Grid.Column mobile={16} tablet={8} computer={6}>
                                 {(_.isEmpty(dataJSON)) ? (
