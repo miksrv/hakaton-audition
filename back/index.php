@@ -25,13 +25,16 @@ function calc_price($amount, $month)
 }
 
 
-function get_contract($filter, $month = false, $word = false, $price = false)
+function get_contract($filter, $month = false, $word = false, $price = false, $region = false)
 {
     $res = GAV::callCurl($filter);
 
+
+    // GAV::setLog($filter);
+
     if (!empty($res)) {
 
-        // GAV::setLog($res, '123');
+        GAV::setLog($res, '123');
 
         return $res;
     } elseif ($month) {
@@ -52,8 +55,11 @@ function get_contract($filter, $month = false, $word = false, $price = false)
         unset($filter['pricerange']);
         $filter['sort'] = 'price';
 
-        $res = get_contract($filter, false, false, false);
+        $res = get_contract($filter, false, false, false, true);
         return $res;
+    } elseif ($region) {
+        unset($filter['customerregion']);
+        $res = get_contract($filter);
     } else {
         return 'false';
     }
@@ -66,9 +72,9 @@ function create_response($contract, $code = '', $body = [])
     $other = ($contract['price'] > ($prices['ndfl'] * 2)) ? ceil($contract['price'] / $prices['ndfl']) - 1 : 0;
 
     $response = [
-        'product' => str_replace(array("\r\n", "\r", "\n"), ' ', htmlspecialchars($contract['products'][0]['name'])),
-        'customerName' => str_replace(array("\r\n", "\r", "\n"), ' ', htmlspecialchars($contract['customer']['fullName'])),
-        'customerAddress' => str_replace(array("\r\n", "\r", "\n"), ' ', htmlspecialchars($contract['customer']['postalAddress'])),
+        'product' => str_replace(array("\r\n", "\r", "\n", "&quot;"), ' ', htmlspecialchars($contract['products'][0]['name'])),
+        'customerName' => str_replace(array("\r\n", "\r", "\n", "&quot;"), ' ', htmlspecialchars($contract['customer']['fullName'])),
+        'customerAddress' => str_replace(array("\r\n", "\r", "\n",  "&quot;"), ' ', htmlspecialchars($contract['customer']['postalAddress'])),
         'execution' => [
             'startDate' => $contract['execution']['startDate'],
             'endDate' => $contract['execution']['endDate'],

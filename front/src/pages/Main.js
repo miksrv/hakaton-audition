@@ -376,41 +376,57 @@ class Main extends Component {
                                     </Form>
                                 ) : (
                                     <div className='panel'>
-                                        {!_.isNull(dataJSON.product) ? (
+                                        {(experience_month === 0 && experience_year === 0) ? (
                                             <div className='center'>
-                                                {(typeof id !== undefined && !_.isEmpty(id) && !_.isEmpty(dataJSON)) ? (
-                                                    <p>За <b>{this.convertMonth(dataJSON.response.start)}</b> я заплатил <b>{dataJSON.ndfl.toLocaleString()} ₽</b> налоговых отчислений из своей зарплаты.</p>
-                                                ) : (
-                                                    <p>За <b>{experience_year}</b> {this.declOfNum(experience_year, ['год', 'года', 'лет'])} и <b>{experience_month}</b> {this.declOfNum(experience_month, ['месяц', 'месяца', 'месяцев'])} вы заплатили из своей зарплаты <b>{(Math.round((amount/0.87)*0.13) * this.totalMonth(experience_month, experience_year)).toLocaleString()} ₽</b> налоговых отчислений.</p>
-                                                )}
-                                                {(dataJSON.other > 0) ? (
-                                                    <p>Благодаря налогам еще <b>{dataJSON.other}</b> {this.declOfNum(dataJSON.other, ['человека', 'людей', 'человек'])} в учреждение:</p>
-                                                ) : (
-                                                    <p>На эту сумму в учреждение:</p>
-                                                )}
-                                                <p className='customer'>{this.convertHTML(dataJSON.customerName)}</p>
-                                                {(!_.isEmpty(dataJSON.customerAddress)) && (
-                                                    <>
-                                                        <p>Находящееся по адресу:</p>
-                                                        <p className='customer'>{dataJSON.customerAddress}</p>
-                                                    </>
-                                                )}
-                                                <p>Было закуплено:</p>
-                                                <p className='customer'><a href={dataJSON.url} target='_blank'>{dataJSON.product}</a></p>
-                                                <p>Спасибо за ваш вклад в развитие региона!</p>
-                                                <YandexShare
-                                                    content={{
-                                                        title: `Что было куплено на мои налоги (${dataJSON.ndfl} руб)`,
-                                                        description: 'Попробуйте новый сервис - Что было куплено на Ваши налоги и поделитесь результатом!',
-                                                        image: 'https://sellus-hackathon.ru/images/service.jpg',
-                                                        url: 'https://sellus-hackathon.ru/id/' + dataJSON.code
-                                                    }}
-                                                    theme={{ lang: 'ru', services: 'vkontakte,facebook,odnoklassniki,telegram,twitter,viber,whatsapp' }}
-                                                />
-                                                <br/>
+                                                <h2>Пока<br />налогов нет</h2>
+                                                <br />
+                                                <p>Найти работу с официальным оформлением можно на</p>
+                                                <br />
+                                                <p>
+                                                    <a href='https://trudvsem.ru/' className='big' title=''>trudvsem.ru</a>
+                                                </p>
+                                                <br />
+                                                <br />
                                             </div>
                                         ) : (
-                                            <div>Возникла ошибка, выполните запрос еще раз</div>
+                                            <>
+                                                {!_.isNull(dataJSON.product) ? (
+                                                    <div className='center'>
+                                                        {(typeof id !== undefined && !_.isEmpty(id) && !_.isEmpty(dataJSON)) ? (
+                                                            <p>За <b>{this.convertMonth(dataJSON.response.start)}</b> я заплатил <b>{dataJSON.ndfl.toLocaleString()} ₽</b> налоговых отчислений из своей зарплаты.</p>
+                                                        ) : (
+                                                            <p>За <b>{experience_year}</b> {this.declOfNum(experience_year, ['год', 'года', 'лет'])} и <b>{experience_month}</b> {this.declOfNum(experience_month, ['месяц', 'месяца', 'месяцев'])} вы заплатили из своей зарплаты <b>{(Math.round((amount/0.87)*0.13) * this.totalMonth(experience_month, experience_year)).toLocaleString()} ₽</b> налоговых отчислений.</p>
+                                                        )}
+                                                        {(dataJSON.other > 0) ? (
+                                                            <p>Благодаря налогам еще <b>{dataJSON.other}</b> {this.declOfNum(dataJSON.other, ['человека', 'людей', 'человек'])} в учреждение:</p>
+                                                        ) : (
+                                                            <p>На эту сумму в учреждение:</p>
+                                                        )}
+                                                        <p className='customer'>{this.convertHTML(dataJSON.customerName)}</p>
+                                                        {(!_.isEmpty(dataJSON.customerAddress)) && (
+                                                            <>
+                                                                <p>Находящееся по адресу:</p>
+                                                                <p className='customer'>{dataJSON.customerAddress}</p>
+                                                            </>
+                                                        )}
+                                                        <p>Было закуплено:</p>
+                                                        <p className='customer'><a href={dataJSON.url} target='_blank'>{dataJSON.product}</a></p>
+                                                        <p>Спасибо за ваш вклад в развитие региона!</p>
+                                                        <YandexShare
+                                                            content={{
+                                                                title: `Что было куплено на мои налоги (${dataJSON.ndfl} руб)`,
+                                                                description: 'Попробуйте новый сервис - Что было куплено на Ваши налоги и поделитесь результатом!',
+                                                                image: 'https://sellus-hackathon.ru/images/service.jpg',
+                                                                url: 'https://sellus-hackathon.ru/id/' + dataJSON.code
+                                                            }}
+                                                            theme={{ lang: 'ru', services: 'vkontakte,facebook,odnoklassniki,telegram,twitter,viber,whatsapp' }}
+                                                        />
+                                                        <br/>
+                                                    </div>
+                                                ) : (
+                                                    <div>Возникла ошибка, выполните запрос еще раз</div>
+                                                )}
+                                            </>
                                         )}
                                         {/*<div>{JSON.stringify(dataJSON, null, 2)}</div>*/}
                                         {/*<br /><br /><br />*/}

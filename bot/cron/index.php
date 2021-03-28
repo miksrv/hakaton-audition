@@ -43,7 +43,7 @@ function message_to_telegram($text, $chat_id, $reply = null)
 $db = mysqli_connect($host, $username, $password, $databasename);
 
 
-$query = "SELECT * FROM SellUsBot";
+$query = "SELECT * FROM SellUsBot WHERE level >= 5";
 $result = mysqli_query($db, $query);
 
 while ($row = mysqli_fetch_assoc($result)) {
