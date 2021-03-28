@@ -1,0 +1,5405 @@
+27.03.2021 20:07:14  Array
+(
+    [update_id] => 543761609
+    [message] => Array
+        (
+            [message_id] => 144
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616864834
+            [text] => Тест
+        )
+
+)
+
+27.03.2021 20:08:42  Array
+(
+    [update_id] => 543761610
+    [message] => Array
+        (
+            [message_id] => 145
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616864922
+            [text] => Тест
+        )
+
+)
+
+27.03.2021 20:10:19  Array
+(
+    [update_id] => 543761611
+    [message] => Array
+        (
+            [message_id] => 146
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616865019
+            [text] => Тест
+        )
+
+)
+
+27.03.2021 20:10:22  Array
+(
+    [update_id] => 543761612
+    [message] => Array
+        (
+            [message_id] => 149
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616865022
+            [text] => Назад
+        )
+
+)
+
+27.03.2021 20:12:02  Array
+(
+    [update_id] => 543761613
+    [message] => Array
+        (
+            [message_id] => 152
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616865121
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+27.03.2021 20:12:06  Array
+(
+    [update_id] => 543761614
+    [message] => Array
+        (
+            [message_id] => 156
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616865126
+            [text] => Петрович
+        )
+
+)
+
+27.03.2021 20:12:06  Array
+(
+    [update_id] => 543761614
+    [message] => Array
+        (
+            [message_id] => 156
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616865126
+            [text] => Петрович
+        )
+
+)
+
+27.03.2021 20:12:08  Array
+(
+    [update_id] => 543761614
+    [message] => Array
+        (
+            [message_id] => 156
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616865126
+            [text] => Петрович
+        )
+
+)
+
+27.03.2021 20:12:12  Array
+(
+    [update_id] => 543761614
+    [message] => Array
+        (
+            [message_id] => 156
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616865126
+            [text] => Петрович
+        )
+
+)
+
+27.03.2021 20:12:16  
+27.03.2021 20:12:20  Array
+(
+    [update_id] => 543761614
+    [message] => Array
+        (
+            [message_id] => 156
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616865126
+            [text] => Петрович
+        )
+
+)
+
+27.03.2021 20:12:36  Array
+(
+    [update_id] => 543761614
+    [message] => Array
+        (
+            [message_id] => 156
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616865126
+            [text] => Петрович
+        )
+
+)
+
+27.03.2021 20:13:08  Array
+(
+    [update_id] => 543761614
+    [message] => Array
+        (
+            [message_id] => 156
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616865126
+            [text] => Петрович
+        )
+
+)
+
+27.03.2021 20:14:08  Array
+(
+    [update_id] => 543761614
+    [message] => Array
+        (
+            [message_id] => 156
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616865126
+            [text] => Петрович
+        )
+
+)
+
+27.03.2021 20:15:08  Array
+(
+    [update_id] => 543761614
+    [message] => Array
+        (
+            [message_id] => 156
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616865126
+            [text] => Петрович
+        )
+
+)
+
+27.03.2021 20:15:17  
+27.03.2021 20:16:08  Array
+(
+    [update_id] => 543761614
+    [message] => Array
+        (
+            [message_id] => 156
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616865126
+            [text] => Петрович
+        )
+
+)
+
+27.03.2021 20:16:16  
+27.03.2021 20:16:34  
+27.03.2021 20:17:08  Array
+(
+    [update_id] => 543761614
+    [message] => Array
+        (
+            [message_id] => 156
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616865126
+            [text] => Петрович
+        )
+
+)
+
+27.03.2021 20:17:09  Array
+(
+    [update_id] => 543761615
+    [message] => Array
+        (
+            [message_id] => 157
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616865221
+            [text] => Тест
+        )
+
+)
+
+27.03.2021 20:18:05  
+27.03.2021 20:18:30  Array
+(
+    [update_id] => 543761616
+    [message] => Array
+        (
+            [message_id] => 160
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616865510
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+27.03.2021 20:18:38  Array
+(
+    [update_id] => 543761617
+    [message] => Array
+        (
+            [message_id] => 164
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616865518
+            [text] => Тестович
+        )
+
+)
+
+27.03.2021 20:20:02  Array
+(
+    [update_id] => 543761618
+    [message] => Array
+        (
+            [message_id] => 166
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616865602
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+27.03.2021 20:20:09  Array
+(
+    [update_id] => 543761619
+    [message] => Array
+        (
+            [message_id] => 170
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616865609
+            [text] => Jhd
+        )
+
+)
+
+27.03.2021 20:20:50  Array
+(
+    [update_id] => 543761620
+    [message] => Array
+        (
+            [message_id] => 172
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616865650
+            [text] => Fhdjdj
+        )
+
+)
+
+27.03.2021 20:21:06  Array
+(
+    [update_id] => 543761621
+    [message] => Array
+        (
+            [message_id] => 174
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616865666
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+27.03.2021 20:21:08  Array
+(
+    [update_id] => 543761622
+    [message] => Array
+        (
+            [message_id] => 178
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616865668
+            [text] => Попл
+        )
+
+)
+
+27.03.2021 20:21:57  Array
+(
+    [update_id] => 543761623
+    [message] => Array
+        (
+            [message_id] => 179
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616865717
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+27.03.2021 20:22:00  Array
+(
+    [update_id] => 543761624
+    [message] => Array
+        (
+            [message_id] => 183
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616865720
+            [text] => Tfhcu
+        )
+
+)
+
+27.03.2021 20:23:28  Array
+(
+    [update_id] => 543761625
+    [message] => Array
+        (
+            [message_id] => 185
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616865808
+            [text] => Fhi
+        )
+
+)
+
+27.03.2021 20:23:47  Array
+(
+    [update_id] => 543761626
+    [message] => Array
+        (
+            [message_id] => 187
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616865827
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+27.03.2021 20:23:50  Array
+(
+    [update_id] => 543761627
+    [message] => Array
+        (
+            [message_id] => 191
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616865830
+            [text] => Fhcii
+        )
+
+)
+
+27.03.2021 20:24:22  Array
+(
+    [update_id] => 543761628
+    [message] => Array
+        (
+            [message_id] => 193
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616865862
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+27.03.2021 20:24:29  Array
+(
+    [update_id] => 543761629
+    [message] => Array
+        (
+            [message_id] => 197
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616865869
+            [text] => Кондратий
+        )
+
+)
+
+27.03.2021 20:25:16  Array
+(
+    [update_id] => 543761630
+    [message] => Array
+        (
+            [message_id] => 199
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616865915
+            [text] => Аосш
+        )
+
+)
+
+27.03.2021 20:26:50  Array
+(
+    [update_id] => 543761631
+    [message] => Array
+        (
+            [message_id] => 201
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616866009
+            [text] => Атсд
+        )
+
+)
+
+27.03.2021 20:26:50  1
+27.03.2021 20:27:56  Array
+(
+    [update_id] => 543761632
+    [message] => Array
+        (
+            [message_id] => 204
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616866076
+            [text] => Оплмш
+        )
+
+)
+
+27.03.2021 20:27:56  1
+27.03.2021 20:33:42  Array
+(
+    [update_id] => 543761633
+    [message] => Array
+        (
+            [message_id] => 207
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616866422
+            [text] => Пос
+        )
+
+)
+
+27.03.2021 20:33:42  1
+27.03.2021 20:34:18  Array
+(
+    [update_id] => 543761634
+    [message] => Array
+        (
+            [message_id] => 210
+            [from] => Array
+                (
+                    [id] => 866272780
+                    [is_bot] => 
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 866272780
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [type] => private
+                )
+
+            [date] => 1616866458
+            [text] => Ам
+        )
+
+)
+
+27.03.2021 20:34:18  
+27.03.2021 20:35:37  Array
+(
+    [update_id] => 543761635
+    [message] => Array
+        (
+            [message_id] => 213
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616866537
+            [text] => По
+        )
+
+)
+
+27.03.2021 20:35:37  1
+27.03.2021 20:36:27  Array
+(
+    [update_id] => 543761636
+    [message] => Array
+        (
+            [message_id] => 216
+            [from] => Array
+                (
+                    [id] => 866272780
+                    [is_bot] => 
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 866272780
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [type] => private
+                )
+
+            [date] => 1616866587
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+27.03.2021 20:36:32  Array
+(
+    [update_id] => 543761637
+    [message] => Array
+        (
+            [message_id] => 220
+            [from] => Array
+                (
+                    [id] => 866272780
+                    [is_bot] => 
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 866272780
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [type] => private
+                )
+
+            [date] => 1616866592
+            [text] => Ыа
+        )
+
+)
+
+27.03.2021 20:36:32  1
+27.03.2021 20:39:20  Array
+(
+    [update_id] => 543761638
+    [message] => Array
+        (
+            [message_id] => 222
+            [from] => Array
+                (
+                    [id] => 866272780
+                    [is_bot] => 
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 866272780
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [type] => private
+                )
+
+            [date] => 1616866760
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+27.03.2021 20:39:24  Array
+(
+    [update_id] => 543761639
+    [message] => Array
+        (
+            [message_id] => 226
+            [from] => Array
+                (
+                    [id] => 866272780
+                    [is_bot] => 
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 866272780
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [type] => private
+                )
+
+            [date] => 1616866764
+            [text] => Адв
+        )
+
+)
+
+27.03.2021 20:39:24  1
+27.03.2021 20:40:14  Array
+(
+    [update_id] => 543761640
+    [message] => Array
+        (
+            [message_id] => 229
+            [from] => Array
+                (
+                    [id] => 866272780
+                    [is_bot] => 
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 866272780
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [type] => private
+                )
+
+            [date] => 1616866814
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+27.03.2021 20:40:17  Array
+(
+    [update_id] => 543761641
+    [message] => Array
+        (
+            [message_id] => 233
+            [from] => Array
+                (
+                    [id] => 866272780
+                    [is_bot] => 
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 866272780
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [type] => private
+                )
+
+            [date] => 1616866816
+            [text] => Во
+        )
+
+)
+
+27.03.2021 20:40:17  1
+27.03.2021 20:41:49  Array
+(
+    [update_id] => 543761642
+    [message] => Array
+        (
+            [message_id] => 236
+            [from] => Array
+                (
+                    [id] => 866272780
+                    [is_bot] => 
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 866272780
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [type] => private
+                )
+
+            [date] => 1616866908
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+27.03.2021 20:41:53  Array
+(
+    [update_id] => 543761643
+    [message] => Array
+        (
+            [message_id] => 240
+            [from] => Array
+                (
+                    [id] => 866272780
+                    [is_bot] => 
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 866272780
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [type] => private
+                )
+
+            [date] => 1616866913
+            [text] => Во
+        )
+
+)
+
+27.03.2021 20:41:53  1
+27.03.2021 20:43:03  Array
+(
+    [update_id] => 543761644
+    [message] => Array
+        (
+            [message_id] => 243
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616866982
+            [text] => Мо
+        )
+
+)
+
+27.03.2021 20:43:03  1
+27.03.2021 20:46:29  Array
+(
+    [update_id] => 543761645
+    [message] => Array
+        (
+            [message_id] => 246
+            [from] => Array
+                (
+                    [id] => 866272780
+                    [is_bot] => 
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 866272780
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [type] => private
+                )
+
+            [date] => 1616867189
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+27.03.2021 20:46:32  Array
+(
+    [update_id] => 543761646
+    [message] => Array
+        (
+            [message_id] => 250
+            [from] => Array
+                (
+                    [id] => 866272780
+                    [is_bot] => 
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 866272780
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [type] => private
+                )
+
+            [date] => 1616867192
+            [text] => Во д
+        )
+
+)
+
+27.03.2021 20:46:32  1
+27.03.2021 20:57:02  Array
+(
+    [update_id] => 543761647
+    [message] => Array
+        (
+            [message_id] => 253
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616867821
+            [text] => Fdd
+        )
+
+)
+
+27.03.2021 20:57:02  1
+27.03.2021 20:57:04  Array
+(
+    [update_id] => 543761648
+    [message] => Array
+        (
+            [message_id] => 256
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616867824
+            [text] => Южный
+        )
+
+)
+
+27.03.2021 20:57:04  1
+27.03.2021 21:00:46  Array
+(
+    [update_id] => 543761649
+    [message] => Array
+        (
+            [message_id] => 259
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616868046
+            [text] => Fhi
+        )
+
+)
+
+27.03.2021 21:00:46  1
+27.03.2021 21:07:18  Array
+(
+    [update_id] => 543761650
+    [message] => Array
+        (
+            [message_id] => 262
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616868437
+            [text] => Центральный
+        )
+
+)
+
+27.03.2021 21:07:18  1
+27.03.2021 21:07:18  Array
+(
+    [update_id] => 543761650
+    [message] => Array
+        (
+            [message_id] => 262
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616868437
+            [text] => Центральный
+        )
+
+)
+
+27.03.2021 21:07:18  1
+27.03.2021 21:07:20  Array
+(
+    [update_id] => 543761650
+    [message] => Array
+        (
+            [message_id] => 262
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616868437
+            [text] => Центральный
+        )
+
+)
+
+27.03.2021 21:07:20  1
+27.03.2021 21:07:24  Array
+(
+    [update_id] => 543761650
+    [message] => Array
+        (
+            [message_id] => 262
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616868437
+            [text] => Центральный
+        )
+
+)
+
+27.03.2021 21:07:24  1
+27.03.2021 21:07:27  
+27.03.2021 21:07:27  1
+27.03.2021 21:07:32  Array
+(
+    [update_id] => 543761650
+    [message] => Array
+        (
+            [message_id] => 262
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616868437
+            [text] => Центральный
+        )
+
+)
+
+27.03.2021 21:07:32  1
+27.03.2021 21:07:48  Array
+(
+    [update_id] => 543761650
+    [message] => Array
+        (
+            [message_id] => 262
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616868437
+            [text] => Центральный
+        )
+
+)
+
+27.03.2021 21:07:48  1
+27.03.2021 21:08:08  
+27.03.2021 21:08:08  1
+27.03.2021 21:08:20  Array
+(
+    [update_id] => 543761650
+    [message] => Array
+        (
+            [message_id] => 262
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616868437
+            [text] => Центральный
+        )
+
+)
+
+27.03.2021 21:08:20  1
+27.03.2021 21:08:40  
+27.03.2021 21:08:40  1
+27.03.2021 21:09:20  Array
+(
+    [update_id] => 543761650
+    [message] => Array
+        (
+            [message_id] => 262
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616868437
+            [text] => Центральный
+        )
+
+)
+
+27.03.2021 21:09:20  1
+27.03.2021 21:09:42  
+27.03.2021 21:09:42  1
+27.03.2021 21:10:20  Array
+(
+    [update_id] => 543761650
+    [message] => Array
+        (
+            [message_id] => 262
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616868437
+            [text] => Центральный
+        )
+
+)
+
+27.03.2021 21:10:20  1
+27.03.2021 21:10:35  
+27.03.2021 21:10:35  1
+27.03.2021 21:11:19  
+27.03.2021 21:11:19  1
+27.03.2021 21:11:20  Array
+(
+    [update_id] => 543761650
+    [message] => Array
+        (
+            [message_id] => 262
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616868437
+            [text] => Центральный
+        )
+
+)
+
+27.03.2021 21:11:20  1
+27.03.2021 21:11:20  Array
+(
+    [update_id] => 543761651
+    [message] => Array
+        (
+            [message_id] => 263
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616868643
+            [text] => Центральный
+        )
+
+)
+
+27.03.2021 21:11:20  1
+27.03.2021 21:11:21  Array
+(
+    [update_id] => 543761652
+    [message] => Array
+        (
+            [message_id] => 264
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616868664
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+27.03.2021 21:11:43  Array
+(
+    [update_id] => 543761653
+    [message] => Array
+        (
+            [message_id] => 270
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616868703
+            [text] => Москва
+        )
+
+)
+
+27.03.2021 21:11:43  1
+27.03.2021 21:12:03  
+27.03.2021 21:12:03  1
+27.03.2021 21:13:15  
+27.03.2021 21:13:15  1
+27.03.2021 21:13:45  Array
+(
+    [update_id] => 543761654
+    [message] => Array
+        (
+            [message_id] => 271
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616868824
+            [text] => Белгородская
+        )
+
+)
+
+27.03.2021 21:13:45  1
+27.03.2021 21:13:52  Array
+(
+    [update_id] => 543761655
+    [message] => Array
+        (
+            [message_id] => 273
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616868832
+            [text] => Центральный
+        )
+
+)
+
+27.03.2021 21:13:52  1
+27.03.2021 21:16:12  Array
+(
+    [update_id] => 543761656
+    [message] => Array
+        (
+            [message_id] => 276
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616868972
+            [text] => Северо-западный
+        )
+
+)
+
+27.03.2021 21:16:12  1
+27.03.2021 21:16:29  Array
+(
+    [update_id] => 543761657
+    [message] => Array
+        (
+            [message_id] => 278
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616868989
+            [text] => Северо-Западный
+        )
+
+)
+
+27.03.2021 21:16:29  1
+27.03.2021 21:18:51  Array
+(
+    [update_id] => 543761658
+    [message] => Array
+        (
+            [message_id] => 281
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616869131
+            [text] => Южный
+        )
+
+)
+
+27.03.2021 21:18:51  1
+27.03.2021 21:21:13  Array
+(
+    [update_id] => 543761659
+    [message] => Array
+        (
+            [message_id] => 284
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616869273
+            [text] => Ростовская
+        )
+
+)
+
+27.03.2021 21:21:13  1
+27.03.2021 21:21:24  Array
+(
+    [update_id] => 543761660
+    [message] => Array
+        (
+            [message_id] => 286
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616869283
+            [text] => Северо-Кавказский
+        )
+
+)
+
+27.03.2021 21:21:24  1
+27.03.2021 21:24:51  Array
+(
+    [update_id] => 543761661
+    [message] => Array
+        (
+            [message_id] => 289
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616869491
+            [text] => Приволжский
+        )
+
+)
+
+27.03.2021 21:24:51  1
+27.03.2021 21:26:46  Array
+(
+    [update_id] => 543761662
+    [message] => Array
+        (
+            [message_id] => 292
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616869605
+            [text] => Уральский
+        )
+
+)
+
+27.03.2021 21:26:46  1
+27.03.2021 21:28:55  Array
+(
+    [update_id] => 543761663
+    [message] => Array
+        (
+            [message_id] => 295
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616869734
+            [text] => Сибирский
+        )
+
+)
+
+27.03.2021 21:28:55  1
+27.03.2021 21:31:36  Array
+(
+    [update_id] => 543761664
+    [message] => Array
+        (
+            [message_id] => 298
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616869896
+            [text] => Дальневосточный
+        )
+
+)
+
+27.03.2021 21:31:36  1
+27.03.2021 21:48:45  Array
+(
+    [update_id] => 543761665
+    [message] => Array
+        (
+            [message_id] => 301
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616870925
+            [text] => Дальневосточный
+        )
+
+)
+
+27.03.2021 21:48:45  1
+27.03.2021 22:23:40  Array
+(
+    [update_id] => 543761666
+    [message] => Array
+        (
+            [message_id] => 304
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616873020
+            [text] => Амурская
+        )
+
+)
+
+27.03.2021 22:23:40  1
+27.03.2021 22:45:52  
+27.03.2021 22:45:52  1
+27.03.2021 22:48:29  Array
+(
+    [update_id] => 543761667
+    [message] => Array
+        (
+            [message_id] => 306
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616874508
+            [text] => П
+        )
+
+)
+
+27.03.2021 22:48:29  1
+27.03.2021 23:18:44  
+27.03.2021 23:18:44  1
+27.03.2021 23:31:33  Array
+(
+    [update_id] => 543761668
+    [message] => Array
+        (
+            [message_id] => 308
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616877093
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+27.03.2021 23:31:44  Array
+(
+    [update_id] => 543761669
+    [message] => Array
+        (
+            [message_id] => 312
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616877104
+            [text] => Ваше величество
+        )
+
+)
+
+27.03.2021 23:31:44  1
+27.03.2021 23:33:22  Array
+(
+    [update_id] => 543761670
+    [message] => Array
+        (
+            [message_id] => 314
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616877202
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+27.03.2021 23:33:28  Array
+(
+    [update_id] => 543761671
+    [message] => Array
+        (
+            [message_id] => 318
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616877208
+            [text] => Всеволод
+        )
+
+)
+
+27.03.2021 23:33:28  
+27.03.2021 23:33:38  Array
+(
+    [update_id] => 543761672
+    [message] => Array
+        (
+            [message_id] => 321
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616877218
+            [text] => Приволжский
+        )
+
+)
+
+27.03.2021 23:33:38  1
+27.03.2021 23:34:19  Array
+(
+    [update_id] => 543761673
+    [message] => Array
+        (
+            [message_id] => 324
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616877259
+            [text] => Оренбургская
+        )
+
+)
+
+27.03.2021 23:34:19  1
+27.03.2021 23:36:50  Array
+(
+    [update_id] => 543761674
+    [message] => Array
+        (
+            [message_id] => 325
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616877410
+            [text] => Оренбургская
+        )
+
+)
+
+27.03.2021 23:36:50  1
+27.03.2021 23:40:34  Array
+(
+    [update_id] => 543761675
+    [message] => Array
+        (
+            [message_id] => 326
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616877633
+            [text] => Оренбургская
+        )
+
+)
+
+27.03.2021 23:40:34  1
+27.03.2021 23:41:21  Array
+(
+    [update_id] => 543761676
+    [message] => Array
+        (
+            [message_id] => 327
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616877681
+            [text] => Оренбургская
+        )
+
+)
+
+27.03.2021 23:41:21  1
+27.03.2021 23:43:26  Array
+(
+    [update_id] => 543761677
+    [message] => Array
+        (
+            [message_id] => 328
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616877806
+            [text] => Приволжский
+        )
+
+)
+
+27.03.2021 23:43:26  1
+27.03.2021 23:45:19  Array
+(
+    [update_id] => 543761678
+    [message] => Array
+        (
+            [message_id] => 330
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616877918
+            [text] => Приволжский
+        )
+
+)
+
+27.03.2021 23:45:19  1
+27.03.2021 23:46:35  Array
+(
+    [update_id] => 543761679
+    [message] => Array
+        (
+            [message_id] => 332
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616877994
+            [text] => Приволжский
+        )
+
+)
+
+27.03.2021 23:46:35  1
+27.03.2021 23:49:05  Array
+(
+    [update_id] => 543761680
+    [message] => Array
+        (
+            [message_id] => 334
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616878145
+            [text] => Приволжский
+        )
+
+)
+
+27.03.2021 23:49:05  1
+27.03.2021 23:50:15  Array
+(
+    [update_id] => 543761681
+    [message] => Array
+        (
+            [message_id] => 336
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616878215
+            [text] => Оренбургская
+        )
+
+)
+
+27.03.2021 23:50:15  2
+27.03.2021 23:52:00  Array
+(
+    [update_id] => 543761682
+    [message] => Array
+        (
+            [message_id] => 339
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616878319
+            [text] => Оренбургская
+        )
+
+)
+
+27.03.2021 23:52:00  2
+27.03.2021 23:52:14  Array
+(
+    [update_id] => 543761683
+    [message] => Array
+        (
+            [message_id] => 341
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616878333
+            [text] => IT
+        )
+
+)
+
+27.03.2021 23:52:14  3
+27.03.2021 23:52:28  Array
+(
+    [update_id] => 543761684
+    [message] => Array
+        (
+            [message_id] => 343
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616878348
+            [text] => 26500
+        )
+
+)
+
+27.03.2021 23:52:28  4
+27.03.2021 23:52:28  Array
+(
+    [update_id] => 543761684
+    [message] => Array
+        (
+            [message_id] => 343
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616878348
+            [text] => 26500
+        )
+
+)
+
+27.03.2021 23:52:28  4
+27.03.2021 23:52:30  Array
+(
+    [update_id] => 543761684
+    [message] => Array
+        (
+            [message_id] => 343
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616878348
+            [text] => 26500
+        )
+
+)
+
+27.03.2021 23:52:30  4
+27.03.2021 23:52:34  Array
+(
+    [update_id] => 543761684
+    [message] => Array
+        (
+            [message_id] => 343
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616878348
+            [text] => 26500
+        )
+
+)
+
+27.03.2021 23:52:34  4
+27.03.2021 23:52:42  Array
+(
+    [update_id] => 543761684
+    [message] => Array
+        (
+            [message_id] => 343
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616878348
+            [text] => 26500
+        )
+
+)
+
+27.03.2021 23:52:42  4
+27.03.2021 23:52:58  Array
+(
+    [update_id] => 543761684
+    [message] => Array
+        (
+            [message_id] => 343
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616878348
+            [text] => 26500
+        )
+
+)
+
+27.03.2021 23:52:58  4
+27.03.2021 23:53:31  Array
+(
+    [update_id] => 543761684
+    [message] => Array
+        (
+            [message_id] => 343
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616878348
+            [text] => 26500
+        )
+
+)
+
+27.03.2021 23:53:31  4
+27.03.2021 23:54:31  Array
+(
+    [update_id] => 543761684
+    [message] => Array
+        (
+            [message_id] => 343
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616878348
+            [text] => 26500
+        )
+
+)
+
+27.03.2021 23:54:31  4
+27.03.2021 23:55:31  Array
+(
+    [update_id] => 543761684
+    [message] => Array
+        (
+            [message_id] => 343
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616878348
+            [text] => 26500
+        )
+
+)
+
+27.03.2021 23:55:31  4
+27.03.2021 23:57:23  Array
+(
+    [update_id] => 543761685
+    [message] => Array
+        (
+            [message_id] => 348
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616878642
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+27.03.2021 23:57:58  Array
+(
+    [update_id] => 543761686
+    [message] => Array
+        (
+            [message_id] => 352
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616878678
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+27.03.2021 23:58:09  Array
+(
+    [update_id] => 543761687
+    [message] => Array
+        (
+            [message_id] => 356
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616878689
+            [text] => Всеволод
+        )
+
+)
+
+27.03.2021 23:58:09  
+27.03.2021 23:58:16  Array
+(
+    [update_id] => 543761688
+    [message] => Array
+        (
+            [message_id] => 359
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616878696
+            [text] => Южный
+        )
+
+)
+
+27.03.2021 23:58:16  1
+27.03.2021 23:58:21  Array
+(
+    [update_id] => 543761689
+    [message] => Array
+        (
+            [message_id] => 361
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616878701
+            [text] => Ростовская
+        )
+
+)
+
+27.03.2021 23:58:21  2
+27.03.2021 23:58:29  Array
+(
+    [update_id] => 543761690
+    [message] => Array
+        (
+            [message_id] => 363
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616878708
+            [text] => Сельское хозяйство
+        )
+
+)
+
+27.03.2021 23:58:29  3
+27.03.2021 23:58:37  Array
+(
+    [update_id] => 543761691
+    [message] => Array
+        (
+            [message_id] => 365
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616878717
+            [text] => 51460
+        )
+
+)
+
+27.03.2021 23:58:37  4
+28.03.2021 00:04:44  Array
+(
+    [update_id] => 543761692
+    [message] => Array
+        (
+            [message_id] => 370
+            [from] => Array
+                (
+                    [id] => 1292510801
+                    [is_bot] => 
+                    [first_name] => Михаил
+                    [last_name] => Аникин
+                    [username] => itmoan
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 1292510801
+                    [first_name] => Михаил
+                    [last_name] => Аникин
+                    [username] => itmoan
+                    [type] => private
+                )
+
+            [date] => 1616879084
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+28.03.2021 00:04:53  Array
+(
+    [update_id] => 543761693
+    [message] => Array
+        (
+            [message_id] => 374
+            [from] => Array
+                (
+                    [id] => 1292510801
+                    [is_bot] => 
+                    [first_name] => Михаил
+                    [last_name] => Аникин
+                    [username] => itmoan
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 1292510801
+                    [first_name] => Михаил
+                    [last_name] => Аникин
+                    [username] => itmoan
+                    [type] => private
+                )
+
+            [date] => 1616879093
+            [text] => Михаил
+        )
+
+)
+
+28.03.2021 00:04:53  
+28.03.2021 00:04:58  Array
+(
+    [update_id] => 543761694
+    [message] => Array
+        (
+            [message_id] => 377
+            [from] => Array
+                (
+                    [id] => 1292510801
+                    [is_bot] => 
+                    [first_name] => Михаил
+                    [last_name] => Аникин
+                    [username] => itmoan
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 1292510801
+                    [first_name] => Михаил
+                    [last_name] => Аникин
+                    [username] => itmoan
+                    [type] => private
+                )
+
+            [date] => 1616879098
+            [text] => Приволжский
+        )
+
+)
+
+28.03.2021 00:04:58  1
+28.03.2021 00:05:01  Array
+(
+    [update_id] => 543761695
+    [message] => Array
+        (
+            [message_id] => 379
+            [from] => Array
+                (
+                    [id] => 1292510801
+                    [is_bot] => 
+                    [first_name] => Михаил
+                    [last_name] => Аникин
+                    [username] => itmoan
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 1292510801
+                    [first_name] => Михаил
+                    [last_name] => Аникин
+                    [username] => itmoan
+                    [type] => private
+                )
+
+            [date] => 1616879101
+            [text] => Оренбургская
+        )
+
+)
+
+28.03.2021 00:05:01  2
+28.03.2021 00:05:12  Array
+(
+    [update_id] => 543761696
+    [message] => Array
+        (
+            [message_id] => 381
+            [from] => Array
+                (
+                    [id] => 1292510801
+                    [is_bot] => 
+                    [first_name] => Михаил
+                    [last_name] => Аникин
+                    [username] => itmoan
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 1292510801
+                    [first_name] => Михаил
+                    [last_name] => Аникин
+                    [username] => itmoan
+                    [type] => private
+                )
+
+            [date] => 1616879112
+            [text] => IT
+        )
+
+)
+
+28.03.2021 00:05:12  3
+28.03.2021 00:05:34  Array
+(
+    [update_id] => 543761697
+    [message] => Array
+        (
+            [message_id] => 383
+            [from] => Array
+                (
+                    [id] => 1292510801
+                    [is_bot] => 
+                    [first_name] => Михаил
+                    [last_name] => Аникин
+                    [username] => itmoan
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 1292510801
+                    [first_name] => Михаил
+                    [last_name] => Аникин
+                    [username] => itmoan
+                    [type] => private
+                )
+
+            [date] => 1616879134
+            [text] => 30000
+        )
+
+)
+
+28.03.2021 00:05:34  4
+28.03.2021 00:05:48  Array
+(
+    [update_id] => 543761698
+    [message] => Array
+        (
+            [message_id] => 388
+            [from] => Array
+                (
+                    [id] => 1292510801
+                    [is_bot] => 
+                    [first_name] => Михаил
+                    [last_name] => Аникин
+                    [username] => itmoan
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 1292510801
+                    [first_name] => Михаил
+                    [last_name] => Аникин
+                    [username] => itmoan
+                    [type] => private
+                )
+
+            [date] => 1616879148
+            [text] => Спасибо
+        )
+
+)
+
+28.03.2021 00:05:48  6
+28.03.2021 00:56:08  Array
+(
+    [update_id] => 543761699
+    [message] => Array
+        (
+            [message_id] => 389
+            [from] => Array
+                (
+                    [id] => 866272780
+                    [is_bot] => 
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 866272780
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [type] => private
+                )
+
+            [date] => 1616882167
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+28.03.2021 00:56:19  Array
+(
+    [update_id] => 543761700
+    [message] => Array
+        (
+            [message_id] => 393
+            [from] => Array
+                (
+                    [id] => 866272780
+                    [is_bot] => 
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 866272780
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [type] => private
+                )
+
+            [date] => 1616882179
+            [text] => Генерал Кеннеди
+        )
+
+)
+
+28.03.2021 00:56:19  
+28.03.2021 00:56:22  Array
+(
+    [update_id] => 543761701
+    [message] => Array
+        (
+            [message_id] => 396
+            [from] => Array
+                (
+                    [id] => 866272780
+                    [is_bot] => 
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 866272780
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [type] => private
+                )
+
+            [date] => 1616882182
+            [text] => Южный
+        )
+
+)
+
+28.03.2021 00:56:22  1
+28.03.2021 00:56:25  Array
+(
+    [update_id] => 543761702
+    [message] => Array
+        (
+            [message_id] => 398
+            [from] => Array
+                (
+                    [id] => 866272780
+                    [is_bot] => 
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 866272780
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [type] => private
+                )
+
+            [date] => 1616882185
+            [text] => Ростовская
+        )
+
+)
+
+28.03.2021 00:56:25  2
+28.03.2021 00:56:28  Array
+(
+    [update_id] => 543761703
+    [message] => Array
+        (
+            [message_id] => 400
+            [from] => Array
+                (
+                    [id] => 866272780
+                    [is_bot] => 
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 866272780
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [type] => private
+                )
+
+            [date] => 1616882188
+            [text] => IT
+        )
+
+)
+
+28.03.2021 00:56:28  3
+28.03.2021 00:56:33  Array
+(
+    [update_id] => 543761704
+    [message] => Array
+        (
+            [message_id] => 402
+            [from] => Array
+                (
+                    [id] => 866272780
+                    [is_bot] => 
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 866272780
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [type] => private
+                )
+
+            [date] => 1616882193
+            [text] => 30000
+        )
+
+)
+
+28.03.2021 00:56:33  4
+28.03.2021 06:28:25  Array
+(
+    [update_id] => 543761705
+    [message] => Array
+        (
+            [message_id] => 427
+            [from] => Array
+                (
+                    [id] => 223704806
+                    [is_bot] => 
+                    [first_name] => Den
+                    [username] => TDv56
+                )
+
+            [chat] => Array
+                (
+                    [id] => 223704806
+                    [first_name] => Den
+                    [username] => TDv56
+                    [type] => private
+                )
+
+            [date] => 1616902105
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+28.03.2021 06:28:49  Array
+(
+    [update_id] => 543761706
+    [message] => Array
+        (
+            [message_id] => 431
+            [from] => Array
+                (
+                    [id] => 223704806
+                    [is_bot] => 
+                    [first_name] => Den
+                    [username] => TDv56
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 223704806
+                    [first_name] => Den
+                    [username] => TDv56
+                    [type] => private
+                )
+
+            [date] => 1616902129
+            [text] => Денис
+        )
+
+)
+
+28.03.2021 06:28:49  
+28.03.2021 06:28:55  Array
+(
+    [update_id] => 543761707
+    [message] => Array
+        (
+            [message_id] => 434
+            [from] => Array
+                (
+                    [id] => 223704806
+                    [is_bot] => 
+                    [first_name] => Den
+                    [username] => TDv56
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 223704806
+                    [first_name] => Den
+                    [username] => TDv56
+                    [type] => private
+                )
+
+            [date] => 1616902135
+            [text] => Приволжский
+        )
+
+)
+
+28.03.2021 06:28:55  1
+28.03.2021 06:28:58  Array
+(
+    [update_id] => 543761708
+    [message] => Array
+        (
+            [message_id] => 436
+            [from] => Array
+                (
+                    [id] => 223704806
+                    [is_bot] => 
+                    [first_name] => Den
+                    [username] => TDv56
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 223704806
+                    [first_name] => Den
+                    [username] => TDv56
+                    [type] => private
+                )
+
+            [date] => 1616902138
+            [text] => Оренбургская
+        )
+
+)
+
+28.03.2021 06:28:58  2
+28.03.2021 06:29:14  Array
+(
+    [update_id] => 543761709
+    [message] => Array
+        (
+            [message_id] => 438
+            [from] => Array
+                (
+                    [id] => 223704806
+                    [is_bot] => 
+                    [first_name] => Den
+                    [username] => TDv56
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 223704806
+                    [first_name] => Den
+                    [username] => TDv56
+                    [type] => private
+                )
+
+            [date] => 1616902154
+            [text] => IT
+        )
+
+)
+
+28.03.2021 06:29:14  3
+28.03.2021 06:29:24  Array
+(
+    [update_id] => 543761710
+    [message] => Array
+        (
+            [message_id] => 440
+            [from] => Array
+                (
+                    [id] => 223704806
+                    [is_bot] => 
+                    [first_name] => Den
+                    [username] => TDv56
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 223704806
+                    [first_name] => Den
+                    [username] => TDv56
+                    [type] => private
+                )
+
+            [date] => 1616902164
+            [text] => 100000
+        )
+
+)
+
+28.03.2021 06:29:24  4
+28.03.2021 08:29:35  Array
+(
+    [update_id] => 543761711
+    [message] => Array
+        (
+            [message_id] => 449
+            [from] => Array
+                (
+                    [id] => 953699004
+                    [is_bot] => 
+                    [first_name] => Мария
+                    [last_name] => Мария
+                )
+
+            [chat] => Array
+                (
+                    [id] => 953699004
+                    [first_name] => Мария
+                    [last_name] => Мария
+                    [type] => private
+                )
+
+            [date] => 1616909374
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+28.03.2021 08:29:46  Array
+(
+    [update_id] => 543761712
+    [message] => Array
+        (
+            [message_id] => 453
+            [from] => Array
+                (
+                    [id] => 953699004
+                    [is_bot] => 
+                    [first_name] => Мария
+                    [last_name] => Мария
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 953699004
+                    [first_name] => Мария
+                    [last_name] => Мария
+                    [type] => private
+                )
+
+            [date] => 1616909386
+            [text] => Иван
+        )
+
+)
+
+28.03.2021 08:29:46  
+28.03.2021 08:30:12  Array
+(
+    [update_id] => 543761713
+    [message] => Array
+        (
+            [message_id] => 456
+            [from] => Array
+                (
+                    [id] => 953699004
+                    [is_bot] => 
+                    [first_name] => Мария
+                    [last_name] => Мария
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 953699004
+                    [first_name] => Мария
+                    [last_name] => Мария
+                    [type] => private
+                )
+
+            [date] => 1616909412
+            [text] => Республика Башкирия
+        )
+
+)
+
+28.03.2021 08:30:12  1
+28.03.2021 09:46:26  Array
+(
+    [update_id] => 543761714
+    [message] => Array
+        (
+            [message_id] => 457
+            [from] => Array
+                (
+                    [id] => 283205657
+                    [is_bot] => 
+                    [first_name] => Georg
+                    [last_name] => Ustinov
+                    [username] => ug_rg
+                )
+
+            [chat] => Array
+                (
+                    [id] => 283205657
+                    [first_name] => Georg
+                    [last_name] => Ustinov
+                    [username] => ug_rg
+                    [type] => private
+                )
+
+            [date] => 1616913986
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+28.03.2021 09:46:43  Array
+(
+    [update_id] => 543761715
+    [message] => Array
+        (
+            [message_id] => 461
+            [from] => Array
+                (
+                    [id] => 283205657
+                    [is_bot] => 
+                    [first_name] => Georg
+                    [last_name] => Ustinov
+                    [username] => ug_rg
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 283205657
+                    [first_name] => Georg
+                    [last_name] => Ustinov
+                    [username] => ug_rg
+                    [type] => private
+                )
+
+            [date] => 1616914003
+            [text] => Георг
+        )
+
+)
+
+28.03.2021 09:46:43  
+28.03.2021 09:46:47  Array
+(
+    [update_id] => 543761716
+    [message] => Array
+        (
+            [message_id] => 464
+            [from] => Array
+                (
+                    [id] => 283205657
+                    [is_bot] => 
+                    [first_name] => Georg
+                    [last_name] => Ustinov
+                    [username] => ug_rg
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 283205657
+                    [first_name] => Georg
+                    [last_name] => Ustinov
+                    [username] => ug_rg
+                    [type] => private
+                )
+
+            [date] => 1616914007
+            [text] => Северо-Западный
+        )
+
+)
+
+28.03.2021 09:46:47  1
+28.03.2021 09:46:51  Array
+(
+    [update_id] => 543761717
+    [message] => Array
+        (
+            [message_id] => 466
+            [from] => Array
+                (
+                    [id] => 283205657
+                    [is_bot] => 
+                    [first_name] => Georg
+                    [last_name] => Ustinov
+                    [username] => ug_rg
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 283205657
+                    [first_name] => Georg
+                    [last_name] => Ustinov
+                    [username] => ug_rg
+                    [type] => private
+                )
+
+            [date] => 1616914011
+            [text] => Санкт-Петербург
+        )
+
+)
+
+28.03.2021 09:46:51  2
+28.03.2021 09:46:55  Array
+(
+    [update_id] => 543761718
+    [message] => Array
+        (
+            [message_id] => 468
+            [from] => Array
+                (
+                    [id] => 283205657
+                    [is_bot] => 
+                    [first_name] => Georg
+                    [last_name] => Ustinov
+                    [username] => ug_rg
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 283205657
+                    [first_name] => Georg
+                    [last_name] => Ustinov
+                    [username] => ug_rg
+                    [type] => private
+                )
+
+            [date] => 1616914015
+            [text] => Сельское хозяйство
+        )
+
+)
+
+28.03.2021 09:46:55  3
+28.03.2021 09:47:04  Array
+(
+    [update_id] => 543761719
+    [message] => Array
+        (
+            [message_id] => 470
+            [from] => Array
+                (
+                    [id] => 283205657
+                    [is_bot] => 
+                    [first_name] => Georg
+                    [last_name] => Ustinov
+                    [username] => ug_rg
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 283205657
+                    [first_name] => Georg
+                    [last_name] => Ustinov
+                    [username] => ug_rg
+                    [type] => private
+                )
+
+            [date] => 1616914024
+            [text] => 35000
+        )
+
+)
+
+28.03.2021 09:47:04  4
+28.03.2021 10:25:35  Array
+(
+    [update_id] => 543761720
+    [message] => Array
+        (
+            [message_id] => 499
+            [from] => Array
+                (
+                    [id] => 953699004
+                    [is_bot] => 
+                    [first_name] => Мария
+                    [last_name] => Мария
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 953699004
+                    [first_name] => Мария
+                    [last_name] => Мария
+                    [type] => private
+                )
+
+            [date] => 1616916334
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+28.03.2021 11:07:39  Array
+(
+    [update_id] => 543761721
+    [my_chat_member] => Array
+        (
+            [chat] => Array
+                (
+                    [id] => 223704806
+                    [first_name] => Den
+                    [username] => TDv56
+                    [type] => private
+                )
+
+            [from] => Array
+                (
+                    [id] => 223704806
+                    [is_bot] => 
+                    [first_name] => Den
+                    [username] => TDv56
+                    [language_code] => ru
+                )
+
+            [date] => 1616918859
+            [old_chat_member] => Array
+                (
+                    [user] => Array
+                        (
+                            [id] => 1599671048
+                            [is_bot] => 1
+                            [first_name] => Name SellUs
+                            [username] => sellusnalogbot
+                        )
+
+                    [status] => member
+                )
+
+            [new_chat_member] => Array
+                (
+                    [user] => Array
+                        (
+                            [id] => 1599671048
+                            [is_bot] => 1
+                            [first_name] => Name SellUs
+                            [username] => sellusnalogbot
+                        )
+
+                    [status] => kicked
+                    [until_date] => 0
+                )
+
+        )
+
+)
+
+28.03.2021 11:07:39  
+28.03.2021 11:22:16  Array
+(
+    [update_id] => 543761722
+    [message] => Array
+        (
+            [message_id] => 542
+            [from] => Array
+                (
+                    [id] => 1292510801
+                    [is_bot] => 
+                    [first_name] => Михаил
+                    [last_name] => Аникин
+                    [username] => itmoan
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 1292510801
+                    [first_name] => Михаил
+                    [last_name] => Аникин
+                    [username] => itmoan
+                    [type] => private
+                )
+
+            [date] => 1616919736
+            [text] => Другое
+        )
+
+)
+
+28.03.2021 11:22:16  6
+28.03.2021 12:08:26  Array
+(
+    [update_id] => 543761723
+    [message] => Array
+        (
+            [message_id] => 580
+            [from] => Array
+                (
+                    [id] => 866272780
+                    [is_bot] => 
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 866272780
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [type] => private
+                )
+
+            [date] => 1616922506
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+28.03.2021 12:08:30  Array
+(
+    [update_id] => 543761724
+    [message] => Array
+        (
+            [message_id] => 584
+            [from] => Array
+                (
+                    [id] => 866272780
+                    [is_bot] => 
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 866272780
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [type] => private
+                )
+
+            [date] => 1616922510
+            [text] => Al
+        )
+
+)
+
+28.03.2021 12:08:30  6
+28.03.2021 12:08:36  Array
+(
+    [update_id] => 543761725
+    [message] => Array
+        (
+            [message_id] => 585
+            [from] => Array
+                (
+                    [id] => 866272780
+                    [is_bot] => 
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 866272780
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [type] => private
+                )
+
+            [date] => 1616922516
+            [text] => Hh
+        )
+
+)
+
+28.03.2021 12:08:36  6
+28.03.2021 12:17:16  Array
+(
+    [update_id] => 543761726
+    [message] => Array
+        (
+            [message_id] => 586
+            [from] => Array
+                (
+                    [id] => 866272780
+                    [is_bot] => 
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 866272780
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [type] => private
+                )
+
+            [date] => 1616923035
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+28.03.2021 12:17:20  Array
+(
+    [update_id] => 543761727
+    [message] => Array
+        (
+            [message_id] => 590
+            [from] => Array
+                (
+                    [id] => 866272780
+                    [is_bot] => 
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 866272780
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [type] => private
+                )
+
+            [date] => 1616923040
+            [text] => аыва
+        )
+
+)
+
+28.03.2021 12:17:20  6
+28.03.2021 12:18:36  Array
+(
+    [update_id] => 543761728
+    [message] => Array
+        (
+            [message_id] => 591
+            [from] => Array
+                (
+                    [id] => 866272780
+                    [is_bot] => 
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 866272780
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [type] => private
+                )
+
+            [date] => 1616923116
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+28.03.2021 12:18:38  Array
+(
+    [update_id] => 543761729
+    [message] => Array
+        (
+            [message_id] => 595
+            [from] => Array
+                (
+                    [id] => 866272780
+                    [is_bot] => 
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 866272780
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [type] => private
+                )
+
+            [date] => 1616923118
+            [text] => ывоарывло
+        )
+
+)
+
+28.03.2021 12:18:38  6
+28.03.2021 12:19:03  Array
+(
+    [update_id] => 543761730
+    [message] => Array
+        (
+            [message_id] => 596
+            [from] => Array
+                (
+                    [id] => 866272780
+                    [is_bot] => 
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 866272780
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [type] => private
+                )
+
+            [date] => 1616923143
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+28.03.2021 12:19:07  Array
+(
+    [update_id] => 543761731
+    [message] => Array
+        (
+            [message_id] => 600
+            [from] => Array
+                (
+                    [id] => 866272780
+                    [is_bot] => 
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 866272780
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [type] => private
+                )
+
+            [date] => 1616923147
+            [text] => кеенгшг
+        )
+
+)
+
+28.03.2021 12:19:07  6
+28.03.2021 12:19:59  Array
+(
+    [update_id] => 543761732
+    [message] => Array
+        (
+            [message_id] => 601
+            [from] => Array
+                (
+                    [id] => 866272780
+                    [is_bot] => 
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 866272780
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [type] => private
+                )
+
+            [date] => 1616923199
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+28.03.2021 12:20:09  Array
+(
+    [update_id] => 543761733
+    [message] => Array
+        (
+            [message_id] => 605
+            [from] => Array
+                (
+                    [id] => 866272780
+                    [is_bot] => 
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 866272780
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [type] => private
+                )
+
+            [date] => 1616923209
+            [text] => цйу
+        )
+
+)
+
+28.03.2021 12:20:09  6
+28.03.2021 12:20:49  Array
+(
+    [update_id] => 543761734
+    [message] => Array
+        (
+            [message_id] => 606
+            [from] => Array
+                (
+                    [id] => 866272780
+                    [is_bot] => 
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 866272780
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [type] => private
+                )
+
+            [date] => 1616923249
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+28.03.2021 12:20:53  Array
+(
+    [update_id] => 543761735
+    [message] => Array
+        (
+            [message_id] => 610
+            [from] => Array
+                (
+                    [id] => 866272780
+                    [is_bot] => 
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 866272780
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [type] => private
+                )
+
+            [date] => 1616923253
+            [text] => ыав
+        )
+
+)
+
+28.03.2021 12:20:53  
+28.03.2021 12:31:10  Array
+(
+    [update_id] => 543761736
+    [message] => Array
+        (
+            [message_id] => 625
+            [from] => Array
+                (
+                    [id] => 866272780
+                    [is_bot] => 
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 866272780
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [type] => private
+                )
+
+            [date] => 1616923870
+            [text] => Южный
+        )
+
+)
+
+28.03.2021 12:31:10  1
+28.03.2021 12:31:12  Array
+(
+    [update_id] => 543761737
+    [message] => Array
+        (
+            [message_id] => 627
+            [from] => Array
+                (
+                    [id] => 866272780
+                    [is_bot] => 
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 866272780
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [type] => private
+                )
+
+            [date] => 1616923872
+            [text] => Краснодарский край
+        )
+
+)
+
+28.03.2021 12:31:12  2
+28.03.2021 12:31:13  Array
+(
+    [update_id] => 543761738
+    [message] => Array
+        (
+            [message_id] => 629
+            [from] => Array
+                (
+                    [id] => 866272780
+                    [is_bot] => 
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 866272780
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [type] => private
+                )
+
+            [date] => 1616923873
+            [text] => Образование
+        )
+
+)
+
+28.03.2021 12:31:13  3
+28.03.2021 12:31:17  Array
+(
+    [update_id] => 543761739
+    [message] => Array
+        (
+            [message_id] => 631
+            [from] => Array
+                (
+                    [id] => 866272780
+                    [is_bot] => 
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 866272780
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [type] => private
+                )
+
+            [date] => 1616923877
+            [text] => 30000
+        )
+
+)
+
+28.03.2021 12:31:17  4
+28.03.2021 12:43:39  Array
+(
+    [update_id] => 543761740
+    [message] => Array
+        (
+            [message_id] => 652
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616924618
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+28.03.2021 12:44:25  Array
+(
+    [update_id] => 543761741
+    [message] => Array
+        (
+            [message_id] => 653
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616924665
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+28.03.2021 12:45:37  
+28.03.2021 12:45:37  
+28.03.2021 12:45:45  Array
+(
+    [update_id] => 543761742
+    [message] => Array
+        (
+            [message_id] => 654
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616924745
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+28.03.2021 12:45:46  Array
+(
+    [update_id] => 543761743
+    [message] => Array
+        (
+            [message_id] => 655
+            [from] => Array
+                (
+                    [id] => 167202974
+                    [is_bot] => 
+                    [first_name] => Миша
+                    [username] => miksoft
+                )
+
+            [chat] => Array
+                (
+                    [id] => 167202974
+                    [first_name] => Миша
+                    [username] => miksoft
+                    [type] => private
+                )
+
+            [date] => 1616924746
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+28.03.2021 12:45:49  Array
+(
+    [update_id] => 543761744
+    [message] => Array
+        (
+            [message_id] => 656
+            [from] => Array
+                (
+                    [id] => 866272780
+                    [is_bot] => 
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 866272780
+                    [first_name] => Amanat
+                    [last_name] => Aristanov
+                    [username] => amanatAA
+                    [type] => private
+                )
+
+            [date] => 1616924749
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+28.03.2021 12:46:10  Array
+(
+    [update_id] => 543761745
+    [message] => Array
+        (
+            [message_id] => 669
+            [from] => Array
+                (
+                    [id] => 167202974
+                    [is_bot] => 
+                    [first_name] => Миша
+                    [username] => miksoft
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 167202974
+                    [first_name] => Миша
+                    [username] => miksoft
+                    [type] => private
+                )
+
+            [date] => 1616924770
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+28.03.2021 12:46:35  Array
+(
+    [update_id] => 543761746
+    [message] => Array
+        (
+            [message_id] => 670
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616924795
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+28.03.2021 12:46:52  Array
+(
+    [update_id] => 543761747
+    [message] => Array
+        (
+            [message_id] => 674
+            [from] => Array
+                (
+                    [id] => 167202974
+                    [is_bot] => 
+                    [first_name] => Миша
+                    [username] => miksoft
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 167202974
+                    [first_name] => Миша
+                    [username] => miksoft
+                    [type] => private
+                )
+
+            [date] => 1616924812
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+28.03.2021 12:47:39  Array
+(
+    [update_id] => 543761748
+    [message] => Array
+        (
+            [message_id] => 678
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616924859
+            [text] => Тестов Ярослав Владимирович
+        )
+
+)
+
+28.03.2021 12:47:39  
+28.03.2021 12:47:45  Array
+(
+    [update_id] => 543761749
+    [message] => Array
+        (
+            [message_id] => 681
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616924865
+            [text] => Южный
+        )
+
+)
+
+28.03.2021 12:47:45  1
+28.03.2021 12:47:47  Array
+(
+    [update_id] => 543761750
+    [message] => Array
+        (
+            [message_id] => 683
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616924867
+            [text] => Калмыкия
+        )
+
+)
+
+28.03.2021 12:47:47  2
+28.03.2021 12:47:51  Array
+(
+    [update_id] => 543761751
+    [message] => Array
+        (
+            [message_id] => 685
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616924871
+            [text] => Энергетика
+        )
+
+)
+
+28.03.2021 12:47:51  3
+28.03.2021 12:47:56  Array
+(
+    [update_id] => 543761752
+    [message] => Array
+        (
+            [message_id] => 687
+            [from] => Array
+                (
+                    [id] => 216251169
+                    [is_bot] => 
+                    [first_name] => Ярослав
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 216251169
+                    [first_name] => Ярослав
+                    [type] => private
+                )
+
+            [date] => 1616924876
+            [text] => 23500
+        )
+
+)
+
+28.03.2021 12:47:56  4
