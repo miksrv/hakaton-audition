@@ -27,7 +27,7 @@ function calc_price($amount, $month)
 
 function get_contract($filter, $month = false, $word = false, $price = false)
 {
-    $res = GAV::callCurl($filter)['contracts']['data'][0];
+    $res = GAV::callCurl($filter);
 
     if (!empty($res)) {
 
@@ -60,7 +60,7 @@ function get_contract($filter, $month = false, $word = false, $price = false)
 }
 
 
-function create_response($contract, $code = '', $body)
+function create_response($contract, $code = '', $body = [])
 {
     global $prices;
     $other = ($contract['price'] > ($prices['ndfl'] * 2)) ? ceil($contract['price'] / $prices['ndfl']) - 1 : 0;
@@ -75,7 +75,8 @@ function create_response($contract, $code = '', $body)
         ],
         'price' => $contract['price'],
         'ndfl' => $prices['ndfl'],
-        'url' => $contract['contractUrl'],
+        // 'url' => $contract['contractUrl'],
+        'url' => 'https://spending.gov.ru/goscontracts/contracts/' . $contract['regNum'] . '/',
         'other' => $other,
         'code' => $code,
         'response' => [
@@ -118,8 +119,6 @@ define('MAX_DATE', 12);
 
 if (!empty($body)) {
 
-    GAV::setLog($body);
-
 
     $words = json_decode(file_get_contents(__DIR__ . '/data/word.json'), true);
 
@@ -131,14 +130,14 @@ if (!empty($body)) {
     $filter = [
         'pricerange' => $prices['min'] . '-' . $prices['max'],
         'currentstage' => 'EC',
-        'customerregion' => $body['region'],
+        'customerregion' => ($body['region'] < 10) ? "0" . $body['region'] : $body['region'],
         'daterange' => $date_start->format('d.m.Y') . '-' . $date_end->format('d.m.Y'),
         'productsearchlist' => $words[$body['word']],
         'sort' => '-signDate',
         'perpage' => 1,
     ];
 
-    $contract = get_contract($filter, true);
+    $contract = get_contract($filter, true)['contracts']['data'][0];
     // GAV::setLog($contract);
 
     //сохранение данных в дб
@@ -170,26 +169,37 @@ if (!empty($body)) {
 
     for ($i = 0; $i < count($data); $i++) {
         $date_end = new DateTime();
-        $date_start = (new DateTime())->modify('-1 month');
+        $date_start = (new DateTime())->modify('-3 month');
 
         $prices = calc_price($data[$i]['amount'], 1);
 
-        // print_r($prices);
-
         $filter = [
-            'pricerange' => $prices['min'] . '-' . $prices['max'],
+            // 'pricerange' => $prices['min'] . '-' . $prices['max'],
             'currentstage' => 'EC',
             'customerregion' => $data[$i]['region'],
             'daterange' => $date_start->format('d.m.Y') . '-' . $date_end->format('d.m.Y'),
             'productsearchlist' => $words[$data[$i]['word']],
             'sort' => '-signDate',
-            'perpage' => 1,
+            // 'perpage' => 50,
         ];
 
-        // print_r($filter);
+        $contract = get_contract($filter, false, true)['contracts']['data'];
 
-        $contract = get_contract($filter, false, true);
-        $data[$i]['response'] = create_response($contract);
+        $index = array_rand($contract);
+        $code = substr(sha1(time()), 0, 16);
+
+        $data[$i]['response'] = create_response($contract[$index], $code, ['amount' => $data[$i]['amount'], 'start' => 1]);
+
+        $db_data = json_encode($data[$i]['response'], JSON_UNESCAPED_UNICODE);
+
+
+        $db = mysqli_connect($host, $username, $password, $databasename);
+        $query = "INSERT INTO share VALUES(null, '$code', null, '$db_data')";
+        $result = mysqli_query($db, $query);
+
+        /* Освобождаем используемую память */
+        mysqli_free_result($result);
+        mysqli_close($db);
     }
 
     echo json_encode($data);

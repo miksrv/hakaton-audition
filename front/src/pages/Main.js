@@ -23,15 +23,14 @@ const genderOptions = [
     { key: 7, text: 'Научная деятельность', value: 'Научная деятельность' },
     { key: 8, text: 'Строительство', value: 'Строительство' },
     { key: 9, text: 'Культура', value: 'Культура' },
-    { key: 10, text: 'Гос. Служащий', value: 'Гос. Служащий' },
+    { key: 10, text: 'Госслужба', value: 'Госслужба' },
     { key: 11, text: 'Сельское хозяйство', value: 'Сельское хозяйство' },
     { key: 12, text: 'Добыча и переработка', value: 'Добыча и переработка' },
     { key: 13, text: 'Энергетика', value: 'Энергетика' },
     { key: 14, text: 'Ремонт цифровой техники', value: 'Ремонт цифровой техники' },
-    { key: 15, text: 'Автосервис', value: 'Автосервис' },
-    { key: 16, text: 'Красота и здоровье', value: 'Красота и здоровье' },
-    { key: 17, text: 'Мебель и интерьер', value: 'Мебель и интерьер' },
-    { key: 18, text: 'Другое', value: 'Другое' }
+    { key: 15, text: 'Красота и здоровье', value: 'Красота и здоровье' },
+    { key: 16, text: 'Мебель и интерьер', value: 'Мебель и интерьер' },
+    { key: 17, text: 'Другое', value: 'Другое' }
 ]
 const regionOptions = [
     { key: 1, text: 'Алтайский край', value: 22 },
@@ -353,7 +352,7 @@ class Main extends Component {
                                                 control={Select}
                                                 options={genderOptions}
                                                 label={{ children: 'Сфера деятельности', htmlFor: 'form-select-control-word' }}
-                                                placeholder='Выберите свою сферу деятельности'
+                                                placeholder='Выберите'
                                                 search
                                                 searchInput={{ id: 'form-select-control-word' }}
                                                 onChange={this.handleChange}
@@ -363,13 +362,13 @@ class Main extends Component {
                                                 control={Select}
                                                 options={regionOptions}
                                                 label={{ children: 'Мой регион', htmlFor: 'form-select-control-region' }}
-                                                placeholder='Выберите регион проживания'
+                                                placeholder='Выберите'
                                                 search
                                                 searchInput={{ id: 'form-select-control-region' }}
                                                 onChange={this.handleChange}
                                             />
                                             <div className='nalog'>
-                                                <div className='name'>Оплаченный налог</div>
+                                                <div className='name'>Уплаченный налог</div>
                                                 <div className='value'>{(Math.round((amount/0.87)*0.13) * this.totalMonth(experience_month, experience_year)).toLocaleString()} ₽</div>
                                             </div>
                                             <Button type='submit' disabled={errors} fluid color='blue'>Узнать</Button>
@@ -385,7 +384,7 @@ class Main extends Component {
                                                     <p>За <b>{experience_year}</b> {this.declOfNum(experience_year, ['год', 'года', 'лет'])} и <b>{experience_month}</b> {this.declOfNum(experience_month, ['месяц', 'месяца', 'месяцев'])} вы заплатили из своей зарплаты <b>{(Math.round((amount/0.87)*0.13) * this.totalMonth(experience_month, experience_year)).toLocaleString()} ₽</b> налоговых отчислений.</p>
                                                 )}
                                                 {(dataJSON.other > 0) ? (
-                                                    <p>Благодаря налогам еще {dataJSON.other} {this.declOfNum(dataJSON.other, ['человек', 'человека', 'людей'])} в учреждение:</p>
+                                                    <p>Благодаря налогам еще <b>{dataJSON.other}</b> {this.declOfNum(dataJSON.other, ['человека', 'людей', 'человек'])} в учреждение:</p>
                                                 ) : (
                                                     <p>На эту сумму в учреждение:</p>
                                                 )}
@@ -401,9 +400,9 @@ class Main extends Component {
                                                 <p>Спасибо за ваш вклад в развитие региона!</p>
                                                 <YandexShare
                                                     content={{
-                                                        title: 'Что было куплено на мои налоги',
+                                                        title: `Что было куплено на мои налоги (${dataJSON.ndfl} руб)`,
                                                         description: 'Попробуйте новый сервис - Что было куплено на Ваши налоги и поделитесь результатом!',
-                                                        image: 'https://sellus-hackathon.ru/images/Calculator.png',
+                                                        image: 'https://sellus-hackathon.ru/images/service.jpg',
                                                         url: 'https://sellus-hackathon.ru/id/' + dataJSON.code
                                                     }}
                                                     theme={{ lang: 'ru', services: 'vkontakte,facebook,odnoklassniki,telegram,twitter,viber,whatsapp' }}
@@ -421,11 +420,13 @@ class Main extends Component {
                         </Grid.Column>
                     </Grid>
                     <img src='/images/frame1.png' className='frame' />
-                    <Carousel>
+                    <Carousel autoplay={true} dots={true}>
                         <img src='/images/frame2.png' className='frame' />
                         <img src='/images/frame3.png' className='frame' />
                         <img src='/images/frame4.png' className='frame' />
                     </Carousel>
+                    <img src='/images/frame5.png' className='frame' />
+                    <img src='/images/frame6.png' className='frame' />
                 </Container>
             </MainContainer>
         )

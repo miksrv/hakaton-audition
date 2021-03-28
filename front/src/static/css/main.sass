@@ -1,19 +1,23 @@
-//@font-face
-//    font-family: 'DelaGothicOne'
-//    src: local('DelaGothicOne'), url('/static/fonts/DelaGothicOne-Regular.ttf') format('truetype')
+@font-face
+    font-family: 'DelaGothicOne'
+    src: local('DelaGothicOne'), url('/static/fonts/DelaGothicOne-Regular.ttf') format('truetype')
+
+@font-face
+    font-family: 'Roboto-Light'
+    src: local('Roboto-Light'), url('/static/fonts/Roboto-Light.ttf') format('truetype')
 
 $main-color: #212121
 
 $background-color: #FFF
 $card-background-color: #1b1c1d
-$font-stack: sans-serif
+$font-stack: Roboto-Light, sans-serif
 
 $panel-color: #000542
 $second-color: #0064DC
 
 *:not(.icon)
     outline: none
-    font-family: $font-stack !important
+    font-family: $font-stack
 
 #root
     max-width: 98% !important
@@ -28,8 +32,10 @@ body
 
 h1
     margin-top: 6% !important
-    font-size: 6em
+    font-size: 5em
     color: $panel-color
+    font-family: DelaGothicOne !important
+    font-weight: 100 !important
 
 p
     white-space: pre-line
@@ -158,3 +164,16 @@ p
 
 .semantic_ui_range_inner > div:nth-child(3), .semantic_ui_range_inner > div:nth-child(2)
     background-color: $second-color !important
+
+.carousel-prev:before, .carousel-next:before
+    width: 40px !important
+    height: 40px !important
+    background-size: 50% !important
+    background-color: #FFF !important
+    border-radius: 50% !important
+
+.carousel-prev
+    left: 10px !important
+
+.carousel-next
+    right: 10px !important
