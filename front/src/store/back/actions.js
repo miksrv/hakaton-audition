@@ -26,6 +26,26 @@ export function getData(start, region, amount, word) {
     }
 }
 
+export function getByID(id) {
+    return async(dispatch) => {
+        try {
+            const url = `${process.env.REACT_APP_API_HOST}share.php?code=${id}`
+            const response = await fetch(url, {
+                method: 'GET',
+                headers: {
+                    Accept: 'application/json'
+                }
+            })
+
+            const payload = await response.json()
+
+            dispatch({ type: types.GET_DATA, payload })
+        } catch (error) {
+            console.error(error)
+        }
+    }
+}
+
 export function clearData() {
     return async(dispatch) => {
         await dispatch({type: types.CLEAR_DATA})

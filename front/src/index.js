@@ -23,6 +23,7 @@ ReactDOM.render(
         <BrowserRouter>
             <Switch>
                 <Route exact path="/" component={Main} />
+                <Route exact path="/id/:id" component={Main} />
                 <Route component={Error404} />
             </Switch>
         </BrowserRouter>

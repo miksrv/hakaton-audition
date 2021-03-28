@@ -1,0 +1,1969 @@
+28.03.2021 00:49:45 123
+Array
+(
+    [contractProcedure] => Array
+        (
+            [receiptDocuments] => Array
+                (
+                    [attachment] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [publishedContentId] => BDCD516533EEE80AE05324548D0AFFBC
+                                    [url] => https://zakupki.gov.ru/44fz/filestore/public/1.0/download/rgk2/file.html?uid=BDCD516533EEE80AE05324548D0AFFBC
+                                    [docRegNumber] => 26164025975210000560004
+                                    [docDescription] => Акт приема-передачи товара от 16.03.2021
+                                    [fileName] => Акт приема-передачи товара от 16.03.2021.jpg
+                                )
+
+                            [1] => Array
+                                (
+                                    [publishedContentId] => BDCEEAABDFDAE7BCE05324548D0A88F7
+                                    [url] => https://zakupki.gov.ru/44fz/filestore/public/1.0/download/rgk2/file.html?uid=BDCEEAABDFDAE7BCE05324548D0A88F7
+                                    [docRegNumber] => 26164025975210000560005
+                                    [docDescription] => Товарная накладная № 437 от 16.03.2021
+                                    [fileName] => Товарная накладная № 437 от 16.03.2021.jpg
+                                )
+
+                        )
+
+                )
+
+            [publishDate] => 2021-03-18T14:54:25.960+03:00
+            [executions] => Array
+                (
+                    [execution] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [product] => Клей канцелярский (20.52.10.190): 1,00 ШТ;Клей канцелярский (20.52.10.190): 299,00 ШТ;Точилка канцелярская для карандашей (25.71.13.110): 300,00 ШТ;
+                                    [improperExecutionText] => Отсутствует
+                                    [paid] => 0.00
+                                    [paidVATRUR] => 0.00
+                                    [currency] => Array
+                                        (
+                                            [code] => RUB
+                                            [name] => Российский рубль
+                                        )
+
+                                    [docAcceptance] => Array
+                                        (
+                                            [fulfilmentSum] => 7098.89
+                                            [code] => 99
+                                            [name] => Прочие документы о приемке, не указанные выше
+                                            [documentDate] => 2021-03-16
+                                            [deliveryAcceptDate] => 2021-03-16
+                                            [documentNum] => Акт приема-передачи товара
+                                            [sid] => 365122756
+                                            [fulfilmentSumRUR] => 7098.89
+                                        )
+
+                                    [quantityContractSubjects] => Array
+                                        (
+                                            [quantityContractSubject] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [product] => Array
+                                                                (
+                                                                    [name] => Клей канцелярский
+                                                                    [OKEI] => Array
+                                                                        (
+                                                                            [trueNationalCode] => ШТ
+                                                                            [fullName] => Штука
+                                                                            [code] => 796
+                                                                            [nationalCode] => ШТ
+                                                                            [nationalName] => шт
+                                                                        )
+
+                                                                    [previouslySuppliedQuantity] => 0
+                                                                    [KTRU] => Array
+                                                                        (
+                                                                            [versionNumber] => 1
+                                                                            [versionId] => 65353
+                                                                            [code] => 20.52.10.190-00000003
+                                                                            [name] => Клей канцелярский
+                                                                        )
+
+                                                                    [VATRate] => n
+                                                                    [type] => PRODUCT
+                                                                )
+
+                                                            [unitPrice] => 14.21
+                                                            [originCountry] => Array
+                                                                (
+                                                                    [countryCode] => 156
+                                                                    [countryFullName] => Китайская Народная Республика
+                                                                )
+
+                                                            [sid] => 292847215
+                                                            [fulfilledCost] => 14.21
+                                                            [indexNum] => 3
+                                                            [quantity] => 1
+                                                        )
+
+                                                    [1] => Array
+                                                        (
+                                                            [product] => Array
+                                                                (
+                                                                    [name] => Клей канцелярский
+                                                                    [OKEI] => Array
+                                                                        (
+                                                                            [trueNationalCode] => ШТ
+                                                                            [fullName] => Штука
+                                                                            [code] => 796
+                                                                            [nationalCode] => ШТ
+                                                                            [nationalName] => шт
+                                                                        )
+
+                                                                    [previouslySuppliedQuantity] => 0
+                                                                    [KTRU] => Array
+                                                                        (
+                                                                            [versionNumber] => 1
+                                                                            [versionId] => 65353
+                                                                            [code] => 20.52.10.190-00000003
+                                                                            [name] => Клей канцелярский
+                                                                        )
+
+                                                                    [VATRate] => n
+                                                                    [type] => PRODUCT
+                                                                )
+
+                                                            [unitPrice] => 13.32
+                                                            [originCountry] => Array
+                                                                (
+                                                                    [countryCode] => 156
+                                                                    [countryFullName] => Китайская Народная Республика
+                                                                )
+
+                                                            [sid] => 292815056
+                                                            [fulfilledCost] => 3982.68
+                                                            [indexNum] => 1
+                                                            [quantity] => 299
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [product] => Array
+                                                                (
+                                                                    [name] => Точилка канцелярская для карандашей
+                                                                    [OKEI] => Array
+                                                                        (
+                                                                            [trueNationalCode] => ШТ
+                                                                            [fullName] => Штука
+                                                                            [code] => 796
+                                                                            [nationalCode] => ШТ
+                                                                            [nationalName] => шт
+                                                                        )
+
+                                                                    [previouslySuppliedQuantity] => 0
+                                                                    [KTRU] => Array
+                                                                        (
+                                                                            [versionNumber] => 1
+                                                                            [versionId] => 81446
+                                                                            [code] => 25.71.13.110-00000004
+                                                                            [name] => Точилка канцелярская для карандашей
+                                                                        )
+
+                                                                    [VATRate] => n
+                                                                    [type] => PRODUCT
+                                                                )
+
+                                                            [unitPrice] => 10.34
+                                                            [originCountry] => Array
+                                                                (
+                                                                    [countryCode] => 156
+                                                                    [countryFullName] => Китайская Народная Республика
+                                                                )
+
+                                                            [sid] => 292815057
+                                                            [fulfilledCost] => 3102
+                                                            [indexNum] => 2
+                                                            [quantity] => 300
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                            [1] => Array
+                                (
+                                    [payDoc] => Array
+                                        (
+                                            [documentName] => Платежное поручение
+                                            [documentDate] => 2021-03-17
+                                            [payDocTypeInfo] => Array
+                                                (
+                                                    [docAcceptancePayDoc] => Array
+                                                        (
+                                                            [isDocAcceptancePayDoc] => true
+                                                            [payDocToDocAcceptanceCompliances] => Array
+                                                                (
+                                                                    [docAcceptance] => Array
+                                                                        (
+                                                                            [documentDate] => 2021-03-16+03:00
+                                                                            [name] => Прочие документы о приемке, не указанные выше
+                                                                            [documentNum] => Акт приема-передачи товара
+                                                                            [sid] => 365122756
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                            [documentNum] => 184586
+                                            [sid] => 365123234
+                                        )
+
+                                    [paidRUR] => 7098.89
+                                    [improperExecutionText] => Отсутствует
+                                    [paid] => 7098.89
+                                    [paidVATRUR] => 0.00
+                                    [currency] => Array
+                                        (
+                                            [code] => RUB
+                                            [name] => Российский рубль
+                                        )
+
+                                    [paidVAT] => 0.00
+                                )
+
+                        )
+
+                    [finalStageExecution] => true
+                    [ordinalNumber] => 1
+                    [stage] => Array
+                        (
+                            [endDate] => 2021-04-02T00:00:00
+                        )
+
+                )
+
+            [okpd2okved2] => false
+            [versionNumber] => 0
+            [printForm] => Array
+                (
+                    [url] => https://zakupki.gov.ru/epz/contract/printForm/view.html?contractProcedureId=139839742
+                    [docRegNumber] => 26164025975210000560003
+                )
+
+            [id] => 139839742
+            [@schemeVersion] => 11.0
+        )
+
+    [documentBase] => Протокол подведения итогов электронного аукциона № 0258100000121000014-3 от 24.02.2021
+    [scan] => Array
+        (
+            [0] => Array
+                (
+                    [url] => https://zakupki.gov.ru/44fz/filestore/public/1.0/download/rpec/file.html?uid=BC7827A6A5E4F44AE0530F548D0A2EB4
+                    [docDescription] => Контракт № 0258100000121000014 от 10.03.2021 09:15:12
+                    [fileName] => ГКонтракт точилки и клей ЭА № 14.docx
+                )
+
+        )
+
+    [number] => 0258100000121000014
+    [currentContractStage] => EC
+    [id] => 64339716
+    [fileVersion] => 2021031100_001
+    [placing] => 12011
+    [regionCode] => 61
+    [contractUrl] => http://zakupki.gov.ru/epz/contract/contractCard/common-info.html?reestrNumber=2616402597521000056
+    [signDate] => 2021-03-10T00:00:00
+    [price] => 7098.89
+    [placingWayCode] => EAP44
+    [foundation] => Array
+        (
+            [fcsOrder] => Array
+                (
+                    [notificationNumber] => 0258100000121000014
+                    [purchaseCode] => 212616402597561630100101380030000244
+                    [placing] => 12011
+                    [lotNumber] => 1
+                )
+
+        )
+
+    [fz] => 44
+    [protocolDate] => 2021-02-24
+    [publishDate] => 2021-03-10T15:46:40.944+03:00
+    [regNum] => 2616402597521000056
+    [versionNumber] => 0
+    [schemaVersion] => 11.0
+    [execution] => Array
+        (
+            [startDate] => 2021-03-10T00:00:00
+            [endDate] => 2021-04-02T00:00:00
+        )
+
+    [customer] => Array
+        (
+            [kpp] => 616301001
+            [regNum] => 02581000001
+            [fullName] => ТЕРРИТОРИАЛЬНЫЙ ФОНД ОБЯЗАТЕЛЬНОГО МЕДИЦИНСКОГО СТРАХОВАНИЯ РОСТОВСКОЙ ОБЛАСТИ
+            [inn] => 6164025975
+            [postalAddress] => Российская Федерация, 344000, Ростовская обл, Ростов-на-Дону г, УЛ ВАРФОЛОМЕЕВА, 261/81
+        )
+
+    [currency] => Array
+        (
+            [code] => RUB
+            [name] => Российский рубль
+        )
+
+    [suppliers] => Array
+        (
+            [0] => Array
+                (
+                    [participantType] => P
+                    [inn] => 616606649213
+                    [contactInfo] => Array
+                        (
+                            [middleName] => ГЕННАДЬЕВНА
+                            [lastName] => ВАСИЛЬЕВА
+                            [firstName] => ИРИНА
+                        )
+
+                    [organizationName] => ИП ВАСИЛЬЕВА ИРИНА ГЕННАДЬЕВНА
+                    [isIP] => 1
+                )
+
+        )
+
+    [loadId] => 1533
+    [misuses] => Array
+        (
+            [0] => prodcode
+        )
+
+    [finances] => Array
+        (
+            [budgetLevel] => Array
+                (
+                    [code] => 07
+                )
+
+            [budgetFunds] => Array
+                (
+                    [budgetLevel] => 50
+                    [stages] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [guid] => E7E6F0F169BD47EAA701FFE2A7193DF6
+                                    [endDate] => 2021-04-02T00:00:00
+                                    [payments] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [paymentSum] => 7098.89
+                                                    [paymentYear] => 2021
+                                                    [paymentSumRUR] => 7098.89
+                                                    [paymentMonth] => 4
+                                                    [KBK] => 39501137320050930244
+                                                )
+
+                                        )
+
+                                    [sid] => 68181492
+                                )
+
+                        )
+
+                    [fundsBudgetLevel] => 50
+                    [OKTMO] => Array
+                        (
+                            [code] => 60701000
+                            [name] => город Ростов-на-Дону
+                        )
+
+                )
+
+            [budget] => Array
+                (
+                    [code] => 58050467
+                    [name] => Бюджет Территориального фонда обязательного медицинского страхования Ростовской области
+                )
+
+        )
+
+    [mongo_id] => 604abc56878ec3772075564f
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Клей канцелярский
+                    [OKEI] => Array
+                        (
+                            [code] => 796
+                            [name] => ШТ
+                        )
+
+                    [sum] => 3982.68
+                    [sid] => 292815056
+                    [price] => 13.32
+                    [quantity] => 299
+                )
+
+            [1] => Array
+                (
+                    [name] => Точилка канцелярская для карандашей
+                    [OKEI] => Array
+                        (
+                            [code] => 796
+                            [name] => ШТ
+                        )
+
+                    [sum] => 3102
+                    [sid] => 292815057
+                    [price] => 10.34
+                    [quantity] => 300
+                )
+
+            [2] => Array
+                (
+                    [name] => Клей канцелярский
+                    [OKEI] => Array
+                        (
+                            [code] => 796
+                            [name] => ШТ
+                        )
+
+                    [sum] => 14.21
+                    [sid] => 292847215
+                    [price] => 14.21
+                    [quantity] => 1
+                )
+
+        )
+
+    [printFormUrl] => https://zakupki.gov.ru/epz/contract/printForm/view.html?contractInfoId=64339716
+)
+
+28.03.2021 00:50:11 123
+Array
+(
+    [contractProcedure] => Array
+        (
+            [paymentDocuments] => Array
+                (
+                    [attachment] => Array
+                        (
+                            [publishedContentId] => BDDD83A0021842F7E05324548D0A1E20
+                            [url] => https://zakupki.gov.ru/44fz/filestore/public/1.0/download/rgk2/file.html?uid=BDDD83A0021842F7E05324548D0A1E20
+                            [docRegNumber] => 35634003071210000230004
+                            [docDescription] => пп 375 от 17.03.2021
+                            [fileName] => пп 375 от 17.03.2021.pdf
+                        )
+
+                )
+
+            [receiptDocuments] => Array
+                (
+                    [attachment] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [publishedContentId] => BDDB6B7EBF953E11E05324548D0AC07F
+                                    [url] => https://zakupki.gov.ru/44fz/filestore/public/1.0/download/rgk2/file.html?uid=BDDB6B7EBF953E11E05324548D0AC07F
+                                    [docRegNumber] => 35634003071210000230005
+                                    [docDescription] => счет  от 15.03.2021
+                                    [fileName] => счет  от 15.03.2021.pdf
+                                )
+
+                            [1] => Array
+                                (
+                                    [publishedContentId] => BDDA5F421D6C50FDE05324548D0A46C0
+                                    [url] => https://zakupki.gov.ru/44fz/filestore/public/1.0/download/rgk2/file.html?uid=BDDA5F421D6C50FDE05324548D0A46C0
+                                    [docRegNumber] => 35634003071210000230006
+                                    [docDescription] => акт за январь 2021
+                                    [fileName] => акт за январь 2021.pdf
+                                )
+
+                            [2] => Array
+                                (
+                                    [publishedContentId] => BDDA28EAF61B52E4E05324548D0A6C32
+                                    [url] => https://zakupki.gov.ru/44fz/filestore/public/1.0/download/rgk2/file.html?uid=BDDA28EAF61B52E4E05324548D0A6C32
+                                    [docRegNumber] => 35634003071210000230007
+                                    [docDescription] => акт за февраль 2021
+                                    [fileName] => акт за февраль 2021.pdf
+                                )
+
+                        )
+
+                )
+
+            [publishDate] => 2021-03-19T10:13:42.234+05:00
+            [executions] => Array
+                (
+                    [execution] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [docExecution] => Array
+                                        (
+                                            [documentDate] => 2021-03-15
+                                            [code] => 18
+                                            [name] => Счет на оплату
+                                            [documentNum] => 356000013057/1
+                                            [sid] => 365238930
+                                        )
+
+                                    [currency] => Array
+                                        (
+                                            [code] => RUB
+                                            [name] => Российский рубль
+                                        )
+
+                                    [improperExecutionText] => Отсутствует
+                                    [paid] => 0.00
+                                    [paidVATRUR] => 0.00
+                                )
+
+                            [1] => Array
+                                (
+                                    [product] => Услуги по предоставлению внутризоновых, междугородных и международных телефонных соединений (61.10.11.110): 0,63 УСЛ ЕД;
+                                    [improperExecutionText] => Отсутствует
+                                    [paid] => 0.00
+                                    [paidVATRUR] => 0.00
+                                    [currency] => Array
+                                        (
+                                            [code] => RUB
+                                            [name] => Российский рубль
+                                        )
+
+                                    [docAcceptance] => Array
+                                        (
+                                            [fulfilmentSum] => 3448.59
+                                            [code] => 20
+                                            [name] => Акт выполненных работ
+                                            [documentDate] => 2021-03-15
+                                            [deliveryAcceptDate] => 2021-03-15
+                                            [documentNum] => 34-1-001779/56
+                                            [sid] => 365239700
+                                            [fulfilmentSumRUR] => 3448.59
+                                        )
+
+                                    [quantityContractSubjects] => Array
+                                        (
+                                            [quantityContractSubject] => Array
+                                                (
+                                                    [product] => Array
+                                                        (
+                                                            [name] => Услуги по предоставлению внутризоновых, междугородных и международных телефонных соединений
+                                                            [OKEI] => Array
+                                                                (
+                                                                    [trueNationalCode] => УСЛ ЕД
+                                                                    [fullName] => Условная единица
+                                                                    [code] => 876
+                                                                    [nationalCode] => УСЛ ЕД
+                                                                    [nationalName] => усл. ед
+                                                                )
+
+                                                            [previouslySuppliedQuantity] => 0
+                                                            [OKPD2] => Array
+                                                                (
+                                                                    [code] => 61.10.11.110
+                                                                    [name] => Услуги по предоставлению внутризоновых, междугородных и международных телефонных соединений
+                                                                )
+
+                                                            [VATRate] => 20
+                                                            [type] => SERVICE
+                                                        )
+
+                                                    [indexNum] => 1
+                                                    [sid] => 294539542
+                                                    [fulfilledCost] => 3448.59
+                                                    [unitPrice] => 5472.61
+                                                    [quantity] => 0.630154
+                                                )
+
+                                        )
+
+                                )
+
+                            [2] => Array
+                                (
+                                    [product] => Услуги по предоставлению внутризоновых, междугородных и международных телефонных соединений (61.10.11.110): 0,37 УСЛ ЕД;
+                                    [improperExecutionText] => Отсутствует
+                                    [paid] => 0.00
+                                    [paidVATRUR] => 0.00
+                                    [currency] => Array
+                                        (
+                                            [code] => RUB
+                                            [name] => Российский рубль
+                                        )
+
+                                    [docAcceptance] => Array
+                                        (
+                                            [fulfilmentSum] => 2024.02
+                                            [code] => 20
+                                            [name] => Акт выполненных работ
+                                            [documentDate] => 2021-03-15
+                                            [deliveryAcceptDate] => 2021-03-15
+                                            [documentNum] => 34-1-13416/56
+                                            [sid] => 365240016
+                                            [fulfilmentSumRUR] => 2024.02
+                                        )
+
+                                    [quantityContractSubjects] => Array
+                                        (
+                                            [quantityContractSubject] => Array
+                                                (
+                                                    [product] => Array
+                                                        (
+                                                            [name] => Услуги по предоставлению внутризоновых, междугородных и международных телефонных соединений
+                                                            [OKEI] => Array
+                                                                (
+                                                                    [trueNationalCode] => УСЛ ЕД
+                                                                    [fullName] => Условная единица
+                                                                    [code] => 876
+                                                                    [nationalCode] => УСЛ ЕД
+                                                                    [nationalName] => усл. ед
+                                                                )
+
+                                                            [previouslySuppliedQuantity] => 0
+                                                            [OKPD2] => Array
+                                                                (
+                                                                    [code] => 61.10.11.110
+                                                                    [name] => Услуги по предоставлению внутризоновых, междугородных и международных телефонных соединений
+                                                                )
+
+                                                            [VATRate] => 20
+                                                            [type] => SERVICE
+                                                        )
+
+                                                    [indexNum] => 1
+                                                    [sid] => 294539542
+                                                    [fulfilledCost] => 2024.02
+                                                    [unitPrice] => 5472.61
+                                                    [quantity] => 0.369845
+                                                )
+
+                                        )
+
+                                )
+
+                            [3] => Array
+                                (
+                                    [payDoc] => Array
+                                        (
+                                            [documentName] => Платежный документ
+                                            [documentDate] => 2021-03-17
+                                            [payDocTypeInfo] => Array
+                                                (
+                                                    [docAcceptancePayDoc] => Array
+                                                        (
+                                                            [isDocAcceptancePayDoc] => true
+                                                            [payDocToDocAcceptanceCompliances] => Array
+                                                                (
+                                                                    [docAcceptance] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [documentDate] => 2021-03-15+03:00
+                                                                                    [name] => Акт выполненных работ
+                                                                                    [documentNum] => 34-1-001779/56
+                                                                                    [sid] => 365239700
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [documentDate] => 2021-03-15+03:00
+                                                                                    [name] => Акт выполненных работ
+                                                                                    [documentNum] => 34-1-13416/56
+                                                                                    [sid] => 365240016
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                            [documentNum] => 345
+                                            [sid] => 365240209
+                                        )
+
+                                    [paidRUR] => 5472.61
+                                    [improperExecutionText] => Отсутствует
+                                    [paid] => 5472.61
+                                    [paidVATRUR] => 912.10
+                                    [currency] => Array
+                                        (
+                                            [code] => RUB
+                                            [name] => Российский рубль
+                                        )
+
+                                    [paidVAT] => 912.10
+                                )
+
+                        )
+
+                    [finalStageExecution] => true
+                    [ordinalNumber] => 1
+                    [stage] => Array
+                        (
+                            [endDate] => 2021-03-31T00:00:00
+                        )
+
+                )
+
+            [okpd2okved2] => false
+            [versionNumber] => 0
+            [printForm] => Array
+                (
+                    [url] => https://zakupki.gov.ru/epz/contract/printForm/view.html?contractProcedureId=139884159
+                    [docRegNumber] => 35634003071210000230003
+                )
+
+            [id] => 139884159
+            [@schemeVersion] => 11.0
+        )
+
+    [scan] => Array
+        (
+            [0] => Array
+                (
+                    [url] => https://zakupki.gov.ru/44fz/filestore/public/1.0/download/rgk2/file.html?uid=BDCCEFE0B7C292D1E05324548D0AEC8C
+                    [docDescription] => Договор 56000010 от 15.03.2021 телефон сх
+                    [fileName] => Договор 56000010 от 15.03.2021 телефон сх.pdf
+                )
+
+        )
+
+    [number] => 56000010
+    [currentContractStage] => EC
+    [id] => 64530229
+    [fileVersion] => 2021032000_001
+    [regionCode] => 56
+    [contractUrl] => http://zakupki.gov.ru/epz/contract/contractCard/common-info.html?reestrNumber=3563400307121000023
+    [singleCustomerReason] => Array
+        (
+            [code] => 20010
+            [name] => Закупка товара, работы или услуги, которые относятся к сфере деятельности субъектов естественных монополий в соответствии с Федеральным законом от 17 августа 1995 г. №  147-ФЗ «О естественных монополиях» (Собрание законодательства Российской Федерации, 1995, №  34, ст.  3426; 2001, №  33, ст.  3429; 2002, №  1, ст.  2; 2003, №  2, ст.  168; №  13, ст.  1181; 2004, №  27, ст.  2711; 2006, №  1, ст.  10; №  19, ст.  2063; 2007, №  1, ст.  21; №  43, ст.  5084; №  46, ст.  5557; 2008, №  52, ст.  6236; 2011, №  29, ст.  4281; №  30, ст.  4590, 4596; №  50, ст.  7343; 2012, №  26, ст.  3446; №  31, ст.  4321; №  53, ст.  7616; 2015, №  41, ст.  5629; 2017, №  31, ст.  4754, 4828), а также услуг центрального депозитария
+        )
+
+    [signDate] => 2021-03-15T00:00:00
+    [price] => 5472.61
+    [foundation] => Array
+        (
+            [fcsOrder] => Array
+                (
+                    [purchaseCode] => 213563400307156340100100190190000000
+                )
+
+        )
+
+    [fz] => 44
+    [publishDate] => 2021-03-19T09:40:32.769+05:00
+    [regNum] => 3563400307121000023
+    [versionNumber] => 0
+    [schemaVersion] => 11.0
+    [execution] => Array
+        (
+            [startDate] => 2021-01-01T00:00:00
+            [endDate] => 2021-03-31T00:00:00
+        )
+
+    [customer] => Array
+        (
+            [kpp] => 563401001
+            [regNum] => 01533000063
+            [fullName] => АДМИНИСТРАЦИЯ МУНИЦИПАЛЬНОГО ОБРАЗОВАНИЯ МАТВЕЕВСКИЙ РАЙОН
+            [inn] => 5634003071
+            [postalAddress] => Российская Федерация, 461880, Оренбургская обл, Матвеевский р-н, Матвеевка с, УЛ КОМСОМОЛЬСКАЯ, 18
+        )
+
+    [currency] => Array
+        (
+            [code] => RUB
+            [name] => Российский рубль
+        )
+
+    [suppliers] => Array
+        (
+            [0] => Array
+                (
+                    [kpp] => 784001001
+                    [factualAddress] => 191002, Г САНКТ-ПЕТЕРБУРГ 78, УЛ ДОСТОЕВСКОГО, 15
+                    [organizationName] => ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО "РОСТЕЛЕКОМ"
+                    [legalForm] => Array
+                        (
+                            [code] => 12247
+                            [singularName] => Публичные акционерные общества
+                        )
+
+                    [inn] => 7707049388
+                    [participantType] => U
+                    [contactInfo] => Array
+                        (
+                            [middleName] => Владимировна
+                            [lastName] => Дубова
+                            [firstName] => Анастасия
+                        )
+
+                )
+
+        )
+
+    [loadId] => 1534
+    [misuses] => Array
+        (
+            [0] => prodname
+        )
+
+    [finances] => Array
+        (
+            [budgetLevel] => Array
+                (
+                    [code] => 03
+                )
+
+            [budgetFunds] => Array
+                (
+                    [budgetLevel] => 30
+                    [stages] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [guid] => 7DA6D294EF244CFC9D3049B071204CA5
+                                    [endDate] => 2021-03-31T00:00:00
+                                    [payments] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [paymentSum] => 5472.61
+                                                    [paymentYear] => 2021
+                                                    [paymentSumRUR] => 5472.61
+                                                    [paymentMonth] => 3
+                                                    [KBK] => 21101041420110020244
+                                                )
+
+                                        )
+
+                                    [sid] => 68419257
+                                )
+
+                        )
+
+                    [OKTMO] => Array
+                        (
+                            [code] => 53627000
+                            [name] => Матвеевский муниципальный район
+                        )
+
+                )
+
+            [budget] => Array
+                (
+                    [code] => 53030155
+                    [name] => Бюджет муниципального образования Матвеевский район
+                )
+
+        )
+
+    [mongo_id] => 60568a52878ec32edfc3f8af
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [OKEI] => Array
+                        (
+                            [code] => 876
+                            [name] => УСЛ ЕД
+                        )
+
+                    [OKPD2] => Array
+                        (
+                            [code] => 61.10.11.110
+                            [name] => Услуги по предоставлению внутризоновых, междугородных и международных телефонных соединений
+                        )
+
+                    [price] => 5472.61
+                    [name] => Услуги по предоставлению внутризоновых, междугородных и международных телефонных соединений
+                    [sid] => 294539542
+                )
+
+        )
+
+    [printFormUrl] => https://zakupki.gov.ru/epz/contract/printForm/view.html?contractInfoId=64530229
+)
+
+28.03.2021 00:51:26 123
+Array
+(
+    [contractProcedure] => Array
+        (
+            [receiptDocuments] => Array
+                (
+                    [attachment] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [publishedContentId] => BDCD516533EEE80AE05324548D0AFFBC
+                                    [url] => https://zakupki.gov.ru/44fz/filestore/public/1.0/download/rgk2/file.html?uid=BDCD516533EEE80AE05324548D0AFFBC
+                                    [docRegNumber] => 26164025975210000560004
+                                    [docDescription] => Акт приема-передачи товара от 16.03.2021
+                                    [fileName] => Акт приема-передачи товара от 16.03.2021.jpg
+                                )
+
+                            [1] => Array
+                                (
+                                    [publishedContentId] => BDCEEAABDFDAE7BCE05324548D0A88F7
+                                    [url] => https://zakupki.gov.ru/44fz/filestore/public/1.0/download/rgk2/file.html?uid=BDCEEAABDFDAE7BCE05324548D0A88F7
+                                    [docRegNumber] => 26164025975210000560005
+                                    [docDescription] => Товарная накладная № 437 от 16.03.2021
+                                    [fileName] => Товарная накладная № 437 от 16.03.2021.jpg
+                                )
+
+                        )
+
+                )
+
+            [publishDate] => 2021-03-18T14:54:25.960+03:00
+            [executions] => Array
+                (
+                    [execution] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [product] => Клей канцелярский (20.52.10.190): 1,00 ШТ;Клей канцелярский (20.52.10.190): 299,00 ШТ;Точилка канцелярская для карандашей (25.71.13.110): 300,00 ШТ;
+                                    [improperExecutionText] => Отсутствует
+                                    [paid] => 0.00
+                                    [paidVATRUR] => 0.00
+                                    [currency] => Array
+                                        (
+                                            [code] => RUB
+                                            [name] => Российский рубль
+                                        )
+
+                                    [docAcceptance] => Array
+                                        (
+                                            [fulfilmentSum] => 7098.89
+                                            [code] => 99
+                                            [name] => Прочие документы о приемке, не указанные выше
+                                            [documentDate] => 2021-03-16
+                                            [deliveryAcceptDate] => 2021-03-16
+                                            [documentNum] => Акт приема-передачи товара
+                                            [sid] => 365122756
+                                            [fulfilmentSumRUR] => 7098.89
+                                        )
+
+                                    [quantityContractSubjects] => Array
+                                        (
+                                            [quantityContractSubject] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [product] => Array
+                                                                (
+                                                                    [name] => Клей канцелярский
+                                                                    [OKEI] => Array
+                                                                        (
+                                                                            [trueNationalCode] => ШТ
+                                                                            [fullName] => Штука
+                                                                            [code] => 796
+                                                                            [nationalCode] => ШТ
+                                                                            [nationalName] => шт
+                                                                        )
+
+                                                                    [previouslySuppliedQuantity] => 0
+                                                                    [KTRU] => Array
+                                                                        (
+                                                                            [versionNumber] => 1
+                                                                            [versionId] => 65353
+                                                                            [code] => 20.52.10.190-00000003
+                                                                            [name] => Клей канцелярский
+                                                                        )
+
+                                                                    [VATRate] => n
+                                                                    [type] => PRODUCT
+                                                                )
+
+                                                            [unitPrice] => 14.21
+                                                            [originCountry] => Array
+                                                                (
+                                                                    [countryCode] => 156
+                                                                    [countryFullName] => Китайская Народная Республика
+                                                                )
+
+                                                            [sid] => 292847215
+                                                            [fulfilledCost] => 14.21
+                                                            [indexNum] => 3
+                                                            [quantity] => 1
+                                                        )
+
+                                                    [1] => Array
+                                                        (
+                                                            [product] => Array
+                                                                (
+                                                                    [name] => Клей канцелярский
+                                                                    [OKEI] => Array
+                                                                        (
+                                                                            [trueNationalCode] => ШТ
+                                                                            [fullName] => Штука
+                                                                            [code] => 796
+                                                                            [nationalCode] => ШТ
+                                                                            [nationalName] => шт
+                                                                        )
+
+                                                                    [previouslySuppliedQuantity] => 0
+                                                                    [KTRU] => Array
+                                                                        (
+                                                                            [versionNumber] => 1
+                                                                            [versionId] => 65353
+                                                                            [code] => 20.52.10.190-00000003
+                                                                            [name] => Клей канцелярский
+                                                                        )
+
+                                                                    [VATRate] => n
+                                                                    [type] => PRODUCT
+                                                                )
+
+                                                            [unitPrice] => 13.32
+                                                            [originCountry] => Array
+                                                                (
+                                                                    [countryCode] => 156
+                                                                    [countryFullName] => Китайская Народная Республика
+                                                                )
+
+                                                            [sid] => 292815056
+                                                            [fulfilledCost] => 3982.68
+                                                            [indexNum] => 1
+                                                            [quantity] => 299
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [product] => Array
+                                                                (
+                                                                    [name] => Точилка канцелярская для карандашей
+                                                                    [OKEI] => Array
+                                                                        (
+                                                                            [trueNationalCode] => ШТ
+                                                                            [fullName] => Штука
+                                                                            [code] => 796
+                                                                            [nationalCode] => ШТ
+                                                                            [nationalName] => шт
+                                                                        )
+
+                                                                    [previouslySuppliedQuantity] => 0
+                                                                    [KTRU] => Array
+                                                                        (
+                                                                            [versionNumber] => 1
+                                                                            [versionId] => 81446
+                                                                            [code] => 25.71.13.110-00000004
+                                                                            [name] => Точилка канцелярская для карандашей
+                                                                        )
+
+                                                                    [VATRate] => n
+                                                                    [type] => PRODUCT
+                                                                )
+
+                                                            [unitPrice] => 10.34
+                                                            [originCountry] => Array
+                                                                (
+                                                                    [countryCode] => 156
+                                                                    [countryFullName] => Китайская Народная Республика
+                                                                )
+
+                                                            [sid] => 292815057
+                                                            [fulfilledCost] => 3102
+                                                            [indexNum] => 2
+                                                            [quantity] => 300
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                            [1] => Array
+                                (
+                                    [payDoc] => Array
+                                        (
+                                            [documentName] => Платежное поручение
+                                            [documentDate] => 2021-03-17
+                                            [payDocTypeInfo] => Array
+                                                (
+                                                    [docAcceptancePayDoc] => Array
+                                                        (
+                                                            [isDocAcceptancePayDoc] => true
+                                                            [payDocToDocAcceptanceCompliances] => Array
+                                                                (
+                                                                    [docAcceptance] => Array
+                                                                        (
+                                                                            [documentDate] => 2021-03-16+03:00
+                                                                            [name] => Прочие документы о приемке, не указанные выше
+                                                                            [documentNum] => Акт приема-передачи товара
+                                                                            [sid] => 365122756
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                            [documentNum] => 184586
+                                            [sid] => 365123234
+                                        )
+
+                                    [paidRUR] => 7098.89
+                                    [improperExecutionText] => Отсутствует
+                                    [paid] => 7098.89
+                                    [paidVATRUR] => 0.00
+                                    [currency] => Array
+                                        (
+                                            [code] => RUB
+                                            [name] => Российский рубль
+                                        )
+
+                                    [paidVAT] => 0.00
+                                )
+
+                        )
+
+                    [finalStageExecution] => true
+                    [ordinalNumber] => 1
+                    [stage] => Array
+                        (
+                            [endDate] => 2021-04-02T00:00:00
+                        )
+
+                )
+
+            [okpd2okved2] => false
+            [versionNumber] => 0
+            [printForm] => Array
+                (
+                    [url] => https://zakupki.gov.ru/epz/contract/printForm/view.html?contractProcedureId=139839742
+                    [docRegNumber] => 26164025975210000560003
+                )
+
+            [id] => 139839742
+            [@schemeVersion] => 11.0
+        )
+
+    [documentBase] => Протокол подведения итогов электронного аукциона № 0258100000121000014-3 от 24.02.2021
+    [scan] => Array
+        (
+            [0] => Array
+                (
+                    [url] => https://zakupki.gov.ru/44fz/filestore/public/1.0/download/rpec/file.html?uid=BC7827A6A5E4F44AE0530F548D0A2EB4
+                    [docDescription] => Контракт № 0258100000121000014 от 10.03.2021 09:15:12
+                    [fileName] => ГКонтракт точилки и клей ЭА № 14.docx
+                )
+
+        )
+
+    [number] => 0258100000121000014
+    [currentContractStage] => EC
+    [id] => 64339716
+    [fileVersion] => 2021031100_001
+    [placing] => 12011
+    [regionCode] => 61
+    [contractUrl] => http://zakupki.gov.ru/epz/contract/contractCard/common-info.html?reestrNumber=2616402597521000056
+    [signDate] => 2021-03-10T00:00:00
+    [price] => 7098.89
+    [placingWayCode] => EAP44
+    [foundation] => Array
+        (
+            [fcsOrder] => Array
+                (
+                    [notificationNumber] => 0258100000121000014
+                    [purchaseCode] => 212616402597561630100101380030000244
+                    [placing] => 12011
+                    [lotNumber] => 1
+                )
+
+        )
+
+    [fz] => 44
+    [protocolDate] => 2021-02-24
+    [publishDate] => 2021-03-10T15:46:40.944+03:00
+    [regNum] => 2616402597521000056
+    [versionNumber] => 0
+    [schemaVersion] => 11.0
+    [execution] => Array
+        (
+            [startDate] => 2021-03-10T00:00:00
+            [endDate] => 2021-04-02T00:00:00
+        )
+
+    [customer] => Array
+        (
+            [kpp] => 616301001
+            [regNum] => 02581000001
+            [fullName] => ТЕРРИТОРИАЛЬНЫЙ ФОНД ОБЯЗАТЕЛЬНОГО МЕДИЦИНСКОГО СТРАХОВАНИЯ РОСТОВСКОЙ ОБЛАСТИ
+            [inn] => 6164025975
+            [postalAddress] => Российская Федерация, 344000, Ростовская обл, Ростов-на-Дону г, УЛ ВАРФОЛОМЕЕВА, 261/81
+        )
+
+    [currency] => Array
+        (
+            [code] => RUB
+            [name] => Российский рубль
+        )
+
+    [suppliers] => Array
+        (
+            [0] => Array
+                (
+                    [participantType] => P
+                    [inn] => 616606649213
+                    [contactInfo] => Array
+                        (
+                            [middleName] => ГЕННАДЬЕВНА
+                            [lastName] => ВАСИЛЬЕВА
+                            [firstName] => ИРИНА
+                        )
+
+                    [organizationName] => ИП ВАСИЛЬЕВА ИРИНА ГЕННАДЬЕВНА
+                    [isIP] => 1
+                )
+
+        )
+
+    [loadId] => 1533
+    [misuses] => Array
+        (
+            [0] => prodcode
+        )
+
+    [finances] => Array
+        (
+            [budgetLevel] => Array
+                (
+                    [code] => 07
+                )
+
+            [budgetFunds] => Array
+                (
+                    [budgetLevel] => 50
+                    [stages] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [guid] => E7E6F0F169BD47EAA701FFE2A7193DF6
+                                    [endDate] => 2021-04-02T00:00:00
+                                    [payments] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [paymentSum] => 7098.89
+                                                    [paymentYear] => 2021
+                                                    [paymentSumRUR] => 7098.89
+                                                    [paymentMonth] => 4
+                                                    [KBK] => 39501137320050930244
+                                                )
+
+                                        )
+
+                                    [sid] => 68181492
+                                )
+
+                        )
+
+                    [fundsBudgetLevel] => 50
+                    [OKTMO] => Array
+                        (
+                            [code] => 60701000
+                            [name] => город Ростов-на-Дону
+                        )
+
+                )
+
+            [budget] => Array
+                (
+                    [code] => 58050467
+                    [name] => Бюджет Территориального фонда обязательного медицинского страхования Ростовской области
+                )
+
+        )
+
+    [mongo_id] => 604abc56878ec3772075564f
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Клей канцелярский
+                    [OKEI] => Array
+                        (
+                            [code] => 796
+                            [name] => ШТ
+                        )
+
+                    [sum] => 3982.68
+                    [sid] => 292815056
+                    [price] => 13.32
+                    [quantity] => 299
+                )
+
+            [1] => Array
+                (
+                    [name] => Точилка канцелярская для карандашей
+                    [OKEI] => Array
+                        (
+                            [code] => 796
+                            [name] => ШТ
+                        )
+
+                    [sum] => 3102
+                    [sid] => 292815057
+                    [price] => 10.34
+                    [quantity] => 300
+                )
+
+            [2] => Array
+                (
+                    [name] => Клей канцелярский
+                    [OKEI] => Array
+                        (
+                            [code] => 796
+                            [name] => ШТ
+                        )
+
+                    [sum] => 14.21
+                    [sid] => 292847215
+                    [price] => 14.21
+                    [quantity] => 1
+                )
+
+        )
+
+    [printFormUrl] => https://zakupki.gov.ru/epz/contract/printForm/view.html?contractInfoId=64339716
+)
+
+28.03.2021 00:51:52 123
+Array
+(
+    [contractProcedure] => Array
+        (
+            [paymentDocuments] => Array
+                (
+                    [attachment] => Array
+                        (
+                            [publishedContentId] => BDDD83A0021842F7E05324548D0A1E20
+                            [url] => https://zakupki.gov.ru/44fz/filestore/public/1.0/download/rgk2/file.html?uid=BDDD83A0021842F7E05324548D0A1E20
+                            [docRegNumber] => 35634003071210000230004
+                            [docDescription] => пп 375 от 17.03.2021
+                            [fileName] => пп 375 от 17.03.2021.pdf
+                        )
+
+                )
+
+            [receiptDocuments] => Array
+                (
+                    [attachment] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [publishedContentId] => BDDB6B7EBF953E11E05324548D0AC07F
+                                    [url] => https://zakupki.gov.ru/44fz/filestore/public/1.0/download/rgk2/file.html?uid=BDDB6B7EBF953E11E05324548D0AC07F
+                                    [docRegNumber] => 35634003071210000230005
+                                    [docDescription] => счет  от 15.03.2021
+                                    [fileName] => счет  от 15.03.2021.pdf
+                                )
+
+                            [1] => Array
+                                (
+                                    [publishedContentId] => BDDA5F421D6C50FDE05324548D0A46C0
+                                    [url] => https://zakupki.gov.ru/44fz/filestore/public/1.0/download/rgk2/file.html?uid=BDDA5F421D6C50FDE05324548D0A46C0
+                                    [docRegNumber] => 35634003071210000230006
+                                    [docDescription] => акт за январь 2021
+                                    [fileName] => акт за январь 2021.pdf
+                                )
+
+                            [2] => Array
+                                (
+                                    [publishedContentId] => BDDA28EAF61B52E4E05324548D0A6C32
+                                    [url] => https://zakupki.gov.ru/44fz/filestore/public/1.0/download/rgk2/file.html?uid=BDDA28EAF61B52E4E05324548D0A6C32
+                                    [docRegNumber] => 35634003071210000230007
+                                    [docDescription] => акт за февраль 2021
+                                    [fileName] => акт за февраль 2021.pdf
+                                )
+
+                        )
+
+                )
+
+            [publishDate] => 2021-03-19T10:13:42.234+05:00
+            [executions] => Array
+                (
+                    [execution] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [docExecution] => Array
+                                        (
+                                            [documentDate] => 2021-03-15
+                                            [code] => 18
+                                            [name] => Счет на оплату
+                                            [documentNum] => 356000013057/1
+                                            [sid] => 365238930
+                                        )
+
+                                    [currency] => Array
+                                        (
+                                            [code] => RUB
+                                            [name] => Российский рубль
+                                        )
+
+                                    [improperExecutionText] => Отсутствует
+                                    [paid] => 0.00
+                                    [paidVATRUR] => 0.00
+                                )
+
+                            [1] => Array
+                                (
+                                    [product] => Услуги по предоставлению внутризоновых, междугородных и международных телефонных соединений (61.10.11.110): 0,63 УСЛ ЕД;
+                                    [improperExecutionText] => Отсутствует
+                                    [paid] => 0.00
+                                    [paidVATRUR] => 0.00
+                                    [currency] => Array
+                                        (
+                                            [code] => RUB
+                                            [name] => Российский рубль
+                                        )
+
+                                    [docAcceptance] => Array
+                                        (
+                                            [fulfilmentSum] => 3448.59
+                                            [code] => 20
+                                            [name] => Акт выполненных работ
+                                            [documentDate] => 2021-03-15
+                                            [deliveryAcceptDate] => 2021-03-15
+                                            [documentNum] => 34-1-001779/56
+                                            [sid] => 365239700
+                                            [fulfilmentSumRUR] => 3448.59
+                                        )
+
+                                    [quantityContractSubjects] => Array
+                                        (
+                                            [quantityContractSubject] => Array
+                                                (
+                                                    [product] => Array
+                                                        (
+                                                            [name] => Услуги по предоставлению внутризоновых, междугородных и международных телефонных соединений
+                                                            [OKEI] => Array
+                                                                (
+                                                                    [trueNationalCode] => УСЛ ЕД
+                                                                    [fullName] => Условная единица
+                                                                    [code] => 876
+                                                                    [nationalCode] => УСЛ ЕД
+                                                                    [nationalName] => усл. ед
+                                                                )
+
+                                                            [previouslySuppliedQuantity] => 0
+                                                            [OKPD2] => Array
+                                                                (
+                                                                    [code] => 61.10.11.110
+                                                                    [name] => Услуги по предоставлению внутризоновых, междугородных и международных телефонных соединений
+                                                                )
+
+                                                            [VATRate] => 20
+                                                            [type] => SERVICE
+                                                        )
+
+                                                    [indexNum] => 1
+                                                    [sid] => 294539542
+                                                    [fulfilledCost] => 3448.59
+                                                    [unitPrice] => 5472.61
+                                                    [quantity] => 0.630154
+                                                )
+
+                                        )
+
+                                )
+
+                            [2] => Array
+                                (
+                                    [product] => Услуги по предоставлению внутризоновых, междугородных и международных телефонных соединений (61.10.11.110): 0,37 УСЛ ЕД;
+                                    [improperExecutionText] => Отсутствует
+                                    [paid] => 0.00
+                                    [paidVATRUR] => 0.00
+                                    [currency] => Array
+                                        (
+                                            [code] => RUB
+                                            [name] => Российский рубль
+                                        )
+
+                                    [docAcceptance] => Array
+                                        (
+                                            [fulfilmentSum] => 2024.02
+                                            [code] => 20
+                                            [name] => Акт выполненных работ
+                                            [documentDate] => 2021-03-15
+                                            [deliveryAcceptDate] => 2021-03-15
+                                            [documentNum] => 34-1-13416/56
+                                            [sid] => 365240016
+                                            [fulfilmentSumRUR] => 2024.02
+                                        )
+
+                                    [quantityContractSubjects] => Array
+                                        (
+                                            [quantityContractSubject] => Array
+                                                (
+                                                    [product] => Array
+                                                        (
+                                                            [name] => Услуги по предоставлению внутризоновых, междугородных и международных телефонных соединений
+                                                            [OKEI] => Array
+                                                                (
+                                                                    [trueNationalCode] => УСЛ ЕД
+                                                                    [fullName] => Условная единица
+                                                                    [code] => 876
+                                                                    [nationalCode] => УСЛ ЕД
+                                                                    [nationalName] => усл. ед
+                                                                )
+
+                                                            [previouslySuppliedQuantity] => 0
+                                                            [OKPD2] => Array
+                                                                (
+                                                                    [code] => 61.10.11.110
+                                                                    [name] => Услуги по предоставлению внутризоновых, междугородных и международных телефонных соединений
+                                                                )
+
+                                                            [VATRate] => 20
+                                                            [type] => SERVICE
+                                                        )
+
+                                                    [indexNum] => 1
+                                                    [sid] => 294539542
+                                                    [fulfilledCost] => 2024.02
+                                                    [unitPrice] => 5472.61
+                                                    [quantity] => 0.369845
+                                                )
+
+                                        )
+
+                                )
+
+                            [3] => Array
+                                (
+                                    [payDoc] => Array
+                                        (
+                                            [documentName] => Платежный документ
+                                            [documentDate] => 2021-03-17
+                                            [payDocTypeInfo] => Array
+                                                (
+                                                    [docAcceptancePayDoc] => Array
+                                                        (
+                                                            [isDocAcceptancePayDoc] => true
+                                                            [payDocToDocAcceptanceCompliances] => Array
+                                                                (
+                                                                    [docAcceptance] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [documentDate] => 2021-03-15+03:00
+                                                                                    [name] => Акт выполненных работ
+                                                                                    [documentNum] => 34-1-001779/56
+                                                                                    [sid] => 365239700
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [documentDate] => 2021-03-15+03:00
+                                                                                    [name] => Акт выполненных работ
+                                                                                    [documentNum] => 34-1-13416/56
+                                                                                    [sid] => 365240016
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                            [documentNum] => 345
+                                            [sid] => 365240209
+                                        )
+
+                                    [paidRUR] => 5472.61
+                                    [improperExecutionText] => Отсутствует
+                                    [paid] => 5472.61
+                                    [paidVATRUR] => 912.10
+                                    [currency] => Array
+                                        (
+                                            [code] => RUB
+                                            [name] => Российский рубль
+                                        )
+
+                                    [paidVAT] => 912.10
+                                )
+
+                        )
+
+                    [finalStageExecution] => true
+                    [ordinalNumber] => 1
+                    [stage] => Array
+                        (
+                            [endDate] => 2021-03-31T00:00:00
+                        )
+
+                )
+
+            [okpd2okved2] => false
+            [versionNumber] => 0
+            [printForm] => Array
+                (
+                    [url] => https://zakupki.gov.ru/epz/contract/printForm/view.html?contractProcedureId=139884159
+                    [docRegNumber] => 35634003071210000230003
+                )
+
+            [id] => 139884159
+            [@schemeVersion] => 11.0
+        )
+
+    [scan] => Array
+        (
+            [0] => Array
+                (
+                    [url] => https://zakupki.gov.ru/44fz/filestore/public/1.0/download/rgk2/file.html?uid=BDCCEFE0B7C292D1E05324548D0AEC8C
+                    [docDescription] => Договор 56000010 от 15.03.2021 телефон сх
+                    [fileName] => Договор 56000010 от 15.03.2021 телефон сх.pdf
+                )
+
+        )
+
+    [number] => 56000010
+    [currentContractStage] => EC
+    [id] => 64530229
+    [fileVersion] => 2021032000_001
+    [regionCode] => 56
+    [contractUrl] => http://zakupki.gov.ru/epz/contract/contractCard/common-info.html?reestrNumber=3563400307121000023
+    [singleCustomerReason] => Array
+        (
+            [code] => 20010
+            [name] => Закупка товара, работы или услуги, которые относятся к сфере деятельности субъектов естественных монополий в соответствии с Федеральным законом от 17 августа 1995 г. №  147-ФЗ «О естественных монополиях» (Собрание законодательства Российской Федерации, 1995, №  34, ст.  3426; 2001, №  33, ст.  3429; 2002, №  1, ст.  2; 2003, №  2, ст.  168; №  13, ст.  1181; 2004, №  27, ст.  2711; 2006, №  1, ст.  10; №  19, ст.  2063; 2007, №  1, ст.  21; №  43, ст.  5084; №  46, ст.  5557; 2008, №  52, ст.  6236; 2011, №  29, ст.  4281; №  30, ст.  4590, 4596; №  50, ст.  7343; 2012, №  26, ст.  3446; №  31, ст.  4321; №  53, ст.  7616; 2015, №  41, ст.  5629; 2017, №  31, ст.  4754, 4828), а также услуг центрального депозитария
+        )
+
+    [signDate] => 2021-03-15T00:00:00
+    [price] => 5472.61
+    [foundation] => Array
+        (
+            [fcsOrder] => Array
+                (
+                    [purchaseCode] => 213563400307156340100100190190000000
+                )
+
+        )
+
+    [fz] => 44
+    [publishDate] => 2021-03-19T09:40:32.769+05:00
+    [regNum] => 3563400307121000023
+    [versionNumber] => 0
+    [schemaVersion] => 11.0
+    [execution] => Array
+        (
+            [startDate] => 2021-01-01T00:00:00
+            [endDate] => 2021-03-31T00:00:00
+        )
+
+    [customer] => Array
+        (
+            [kpp] => 563401001
+            [regNum] => 01533000063
+            [fullName] => АДМИНИСТРАЦИЯ МУНИЦИПАЛЬНОГО ОБРАЗОВАНИЯ МАТВЕЕВСКИЙ РАЙОН
+            [inn] => 5634003071
+            [postalAddress] => Российская Федерация, 461880, Оренбургская обл, Матвеевский р-н, Матвеевка с, УЛ КОМСОМОЛЬСКАЯ, 18
+        )
+
+    [currency] => Array
+        (
+            [code] => RUB
+            [name] => Российский рубль
+        )
+
+    [suppliers] => Array
+        (
+            [0] => Array
+                (
+                    [kpp] => 784001001
+                    [factualAddress] => 191002, Г САНКТ-ПЕТЕРБУРГ 78, УЛ ДОСТОЕВСКОГО, 15
+                    [organizationName] => ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО "РОСТЕЛЕКОМ"
+                    [legalForm] => Array
+                        (
+                            [code] => 12247
+                            [singularName] => Публичные акционерные общества
+                        )
+
+                    [inn] => 7707049388
+                    [participantType] => U
+                    [contactInfo] => Array
+                        (
+                            [middleName] => Владимировна
+                            [lastName] => Дубова
+                            [firstName] => Анастасия
+                        )
+
+                )
+
+        )
+
+    [loadId] => 1534
+    [misuses] => Array
+        (
+            [0] => prodname
+        )
+
+    [finances] => Array
+        (
+            [budgetLevel] => Array
+                (
+                    [code] => 03
+                )
+
+            [budgetFunds] => Array
+                (
+                    [budgetLevel] => 30
+                    [stages] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [guid] => 7DA6D294EF244CFC9D3049B071204CA5
+                                    [endDate] => 2021-03-31T00:00:00
+                                    [payments] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [paymentSum] => 5472.61
+                                                    [paymentYear] => 2021
+                                                    [paymentSumRUR] => 5472.61
+                                                    [paymentMonth] => 3
+                                                    [KBK] => 21101041420110020244
+                                                )
+
+                                        )
+
+                                    [sid] => 68419257
+                                )
+
+                        )
+
+                    [OKTMO] => Array
+                        (
+                            [code] => 53627000
+                            [name] => Матвеевский муниципальный район
+                        )
+
+                )
+
+            [budget] => Array
+                (
+                    [code] => 53030155
+                    [name] => Бюджет муниципального образования Матвеевский район
+                )
+
+        )
+
+    [mongo_id] => 60568a52878ec32edfc3f8af
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [OKEI] => Array
+                        (
+                            [code] => 876
+                            [name] => УСЛ ЕД
+                        )
+
+                    [OKPD2] => Array
+                        (
+                            [code] => 61.10.11.110
+                            [name] => Услуги по предоставлению внутризоновых, междугородных и международных телефонных соединений
+                        )
+
+                    [price] => 5472.61
+                    [name] => Услуги по предоставлению внутризоновых, междугородных и международных телефонных соединений
+                    [sid] => 294539542
+                )
+
+        )
+
+    [printFormUrl] => https://zakupki.gov.ru/epz/contract/printForm/view.html?contractInfoId=64530229
+)
+
+28.03.2021 06:33:10 
+Array
+(
+    [start] => 17
+    [region] => 56
+    [amount] => 67000
+    [word] => IT
+)
+
+28.03.2021 06:59:01 
+Array
+(
+    [start] => 52
+    [region] => 79
+    [amount] => 32400
+    [word] => Строительство
+)
+
+28.03.2021 07:19:59 
+Array
+(
+    [start] => 30
+    [region] => 75
+    [amount] => 32400
+    [word] => Автосервис
+)
+
+28.03.2021 07:21:15 
+Array
+(
+    [start] => 183
+    [region] => 56
+    [amount] => 59500
+    [word] => IT
+)
+
+28.03.2021 07:26:58 
+Array
+(
+    [start] => 30
+    [region] => 49
+    [amount] => 32400
+    [word] => Ремонт цифровой техники
+)
+
+28.03.2021 07:28:38 
+Array
+(
+    [start] => 30
+    [region] => 38
+    [amount] => 32400
+    [word] => Красота и здоровье
+)
+
+28.03.2021 07:35:42 
+Array
+(
+    [start] => 30
+    [region] => 77
+    [amount] => 32400
+    [word] => Производство
+)
+
+28.03.2021 07:49:06 
+Array
+(
+    [start] => 30
+    [region] => 28
+    [amount] => 32400
+    [word] => Производство
+)
+
+28.03.2021 07:50:21 
+Array
+(
+    [start] => 66
+    [region] => 75
+    [amount] => 32400
+    [word] => Красота и здоровье
+)
+
+28.03.2021 08:03:16 
+Array
+(
+    [start] => 42
+    [region] => 45
+    [amount] => 32400
+    [word] => Красота и здоровье
+)
+
+28.03.2021 08:08:58 
+Array
+(
+    [start] => 182
+    [region] => 2
+    [amount] => 19500
+    [word] => Образование
+)
+
+28.03.2021 08:11:18 
+Array
+(
+    [start] => 150
+    [region] => 2
+    [amount] => 32400
+    [word] => Логистика
+)
+
+28.03.2021 08:11:38 
+Array
+(
+    [start] => 78
+    [region] => 9
+    [amount] => 53500
+    [word] => IT
+)
+
+28.03.2021 08:12:27 
+Array
+(
+    [start] => 50
+    [region] => 39
+    [amount] => 44500
+    [word] => Производство
+)
+
+28.03.2021 08:16:19 
+Array
+(
+    [start] => 52
+    [region] => 29
+    [amount] => 55500
+    [word] => Производство
+)
+
+28.03.2021 08:16:27 
+Array
+(
+    [start] => 150
+    [region] => 2
+    [amount] => 32400
+    [word] => Производство
+)
+
+28.03.2021 08:17:46 
+Array
+(
+    [start] => 90
+    [region] => 28
+    [amount] => 32400
+    [word] => IT
+)
+
+28.03.2021 08:17:55 
+Array
+(
+    [start] => 52
+    [region] => 29
+    [amount] => 55500
+    [word] => Производство
+)
+
+28.03.2021 08:18:17 
+Array
+(
+    [start] => 248
+    [region] => 29
+    [amount] => 32400
+    [word] => Продажи
+)
+

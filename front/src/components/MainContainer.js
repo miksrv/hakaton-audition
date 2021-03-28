@@ -16,7 +16,7 @@ class MainContainer extends Component {
         return (
             <>
                 <Container className='header'>
-                    <div>Sell-us</div>
+                    <div><b>Sell-us</b></div>
                     <div>Специально для Audition</div>
                 </Container>
                 {children}

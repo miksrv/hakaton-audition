@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { Container, Form, Select, Button, Message, Header, Grid, Dimmer, Loader, Icon } from 'semantic-ui-react'
 import { Slider } from 'react-semantic-ui-range'
+import YandexShare from 'react-yandex-share'
 
 import moment from 'moment'
 
@@ -159,10 +160,14 @@ class Main extends Component {
     }
 
     componentDidMount() {
+        const { id } = this.props.match.params
         const { dispatch } = this.props
-        const monthStart = moment().clone().startOf('month').format('DD-MM-YYYY')
 
         document.title = 'Налоговый калькулятор'
+
+        if (typeof id !== undefined && !_.isEmpty(id)) {
+            dispatch(backActions.getByID(id))
+        }
 
         // this.setState({calendarMoonPhrases: moonPhrase(monthStart, monthEnd)})
     }
@@ -211,6 +216,8 @@ class Main extends Component {
         this.setState({ formLoader: false, errors: true })
 
         dispatch(backActions.clearData())
+
+        this.props.history.push('/')
     }
 
     checkErrors = () => {
@@ -231,7 +238,7 @@ class Main extends Component {
         if (year <= 0 && month <= 0) return 0
         if (year === 1) return month + 12
         if (year === 0) return month
-        return month * year
+        return month + (year * 12)
     }
 
     startTimer = () => {
@@ -243,9 +250,25 @@ class Main extends Component {
         this.setState({ loaderText: _.shuffle(loaderText)[0] })
     }
 
+    convertHTML = str => {
+        return str.replace(/[&quot;]/g, "")
+    }
+
+    convertMonth = monthCount => {
+        let m = monthCount % 12,
+            y = Math.floor(monthCount / 12),
+            result = []
+
+        y && result.push(y + ' ' + this.declOfNum(y, ['год', 'года', 'лет']))
+        m && result.push(m + ' ' + this.declOfNum(m, ['месяц', 'месяца', 'месяцев']))
+        return result.join(' и ')
+    }
+
+
     render() {
-        const { amount, formLoader, errors, experience_year, experience_month, salary, loaderText } = this.state
+        const { amount, formLoader, errors, experience_year, experience_month, loaderText } = this.state
         const { dataJSON } = this.props
+        const { id } = this.props.match.params
 
         //const dataJSON = {"product":"\u0412\u0430\u0442\u0430 \u043c\u0435\u0434\u0438\u0446\u0438\u043d\u0441\u043a\u0430\u044f \u0433\u0438\u0433\u0440\u043e\u0441\u043a\u043e\u043f\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u043d\u0435\u0441\u0442\u0435\u0440\u0438\u043b\u044c\u043d\u0430\u044f \u0445\u0438\u0440\u0443\u0440\u0433\u0438\u0447\u0435\u0441\u043a\u0430\u044f    250 \u0433\u0440., \u0438\u0437\u0433\u043e\u0442\u043e\u0432\u043b\u0435\u043d\u0430 \u0438\u0437 100% \u043e\u0447\u0438\u0449\u0435\u043d\u043d\u044b\u0445, \u043e\u0431\u0435\u0437\u0436\u0438\u0440\u0435\u043d\u043d\u044b\u0445 \u0438 \u043e\u0442\u0431\u0435\u043b\u0435\u043d\u043d\u044b\u0445 \u0445\u043b\u043e\u043f\u043a\u043e\u0432\u044b\u0445 \u0432\u043e\u043b\u043e\u043a\u043e\u043d.  \u0412\u0430\u0442\u0430 \u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0443\u0435\u0442 \u0432\u0441\u0435\u043c \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f\u043c \u0413\u041e\u0421\u0422 5556-81. \u041c\u0430\u0441\u0441\u043e\u0432\u0430\u044f \u0434\u043e\u043b\u044f \u043f\u043b\u043e\u0442\u043d\u044b\u0445 \u043d\u0435\u0440\u0430\u0441\u0447\u0435\u0441\u0430\u043d\u043d\u044b\u0445 \u0441\u043a\u043e\u043f\u043b\u0435\u043d\u0438\u0439 \u0432\u043e\u043b\u043e\u043a\u043e\u043d-\u0443\u0437\u0435\u043b\u043a\u043e\u0432  2,4%. \u041c\u0430\u0441\u0441\u043e\u0432\u0430\u044f \u0434\u043e\u043b\u044f \u043a\u043e\u0440\u043e\u0442\u043a\u0438\u0445 \u0432\u043e\u043b\u043e\u043a\u043e\u043d (\u043c\u0435\u043d\u0435\u0435 5 \u043c\u043c) \u0438 \u0445\u043b\u043e\u043f\u043a\u043e\u0432\u043e\u0439 \u043f\u044b\u043b\u0438 0,15%. \u0417\u0430\u0441\u043e\u0440\u0435\u043d\u043d\u043e\u0441\u0442\u044c 0,30%. \u041d\u0435 \u0441\u043e\u0434\u0435\u0440\u0436\u0438\u0442 \u043f\u043e\u0441\u0442\u043e\u0440\u043e\u043d\u043d\u0438\u0445 \u043f\u0440\u0438\u043c\u0435\u0441\u0435\u0439: \u0438\u0433\u043e\u043b\u043e\u0447\u0435\u043a, \u0449\u0435\u043f\u043e\u0447\u0435\u043a \u0438 \u0434\u0440. \u0417\u043e\u043b\u044c\u043d\u043e\u0441\u0442\u044c  0,30%. \u041c\u0430\u0441\u0441\u043e\u0432\u0430\u044f \u0434\u043e\u043b\u044f \u0436\u0438\u0440\u043e\u0432\u044b\u0445 \u0438 \u0432\u043e\u0441\u043a\u043e\u043e\u0431\u0440\u0430\u0437\u043d\u044b\u0445 \u0432\u0435\u0449\u0435\u0441\u0442\u0432 0,35%. \u0412\u043b\u0430\u0436\u043d\u043e\u0441\u0442\u044c 8,0%. \u041f\u043e\u0433\u043b\u043e\u0442\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0441\u0442\u044c 20 \u0433. \u041a\u0430\u043f\u0438\u043b\u043b\u044f\u0440\u043d\u043e\u0441\u0442\u044c 70 \u043c\u043c. \u0420\u0435\u0430\u043a\u0446\u0438\u044f \u0432\u043e\u0434\u043d\u043e\u0439 \u0432\u044b\u0442\u044f\u0436\u043a\u0438 - \u043d\u0435\u0439\u0442\u0440\u0430\u043b\u044c\u043d\u0430\u044f. \u041c\u0430\u0441\u0441\u043e\u0432\u0430\u044f \u0434\u043e\u043b\u044f \u0445\u043b\u043e\u0440\u0438\u0441\u0442\u044b\u0445 \u0441\u043e\u043b\u0435\u0439 0,04%. \u041c\u0430\u0441\u0441\u043e\u0432\u0430\u044f \u0434\u043e\u043b\u044f \u0441\u0435\u0440\u043d\u043e\u043a\u0438\u0441\u043b\u044b\u0445 \u0441\u043e\u043b\u0435\u0439 0,02%. \u041c\u0430\u0441\u0441\u043e\u0432\u0430\u044f \u0434\u043e\u043b\u044f \u043a\u0430\u043b\u044c\u0446\u0438\u0435\u0432\u044b\u0445 \u0441\u043e\u043b\u0435\u0439 0,06%. \u0421\u043e\u0434\u0435\u0440\u0436\u0430\u043d\u0438\u0435 \u0432\u043e\u0441\u0441\u0442\u0430\u043d\u0430\u0432\u043b\u0438\u0432\u0430\u044e\u0449\u0438\u0445 \u0432\u0435\u0449\u0435\u0441\u0442\u0432 - \u0441\u043b\u0435\u0434\u044b . \u0421\u0442\u0435\u043f\u0435\u043d\u044c \u0431\u0435\u043b\u0438\u0437\u043d\u044b 72%. \u0412\u0430\u0442\u0430 \u0445\u043e\u0440\u043e\u0448\u043e \u043f\u0440\u043e\u0447\u0435\u0441\u0430\u043d\u043d\u0430\u044f, \u0441\u043e\u0445\u0440\u0430\u043d\u044f\u0435\u0442 \u0441\u0432\u044f\u0437\u044c \u043c\u0435\u0436\u0434\u0443 \u0432\u043e\u043b\u043e\u043a\u043d\u0430\u043c\u0438 \u0438 \u043b\u0435\u0433\u043a\u043e \u0440\u0430\u0441\u0441\u043b\u0430\u0438\u0432\u0430\u0435\u0442\u0441\u044f \u043d\u0430 \u043f\u0430\u0440\u0430\u043b\u043b\u0435\u043b\u044c\u043d\u044b\u0435 \u0441\u043b\u043e\u0438 \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u043b\u044c\u043d\u043e\u0439 \u0442\u043e\u043b\u0449\u0438\u043d\u044b. \u0412\u0430\u0442\u0430 \u0443\u043f\u0430\u043a\u043e\u0432\u0430\u043d\u0430 \u0432 \u043f\u043e\u043b\u0438\u043f\u0440\u043e\u043f\u0438\u043b\u0435\u043d\u043e\u0432\u044b\u0439 \u043c\u0435\u0448\u043e\u043a, \u0437\u0430\u043a\u0440\u044b\u0442\u044b\u0439 \u043a\u043b\u0435\u0435\u0432\u043e\u0439 \u043b\u0435\u043d\u0442\u043e\u0439. \u0421\u0440\u043e\u043a \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f 5 \u043b\u0435\u0442 \u0441 \u0434\u0430\u0442\u044b \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u0430. \u0421\u0442\u0440\u0430\u043d\u0430 \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u0430 \u2013 \u0420\u043e\u0441\u0441\u0438\u044f. \u0420\u0423 \u0424\u0421\u0420 2009\/04485 \u043e\u0442 11.03.2009\r\n\u0418\u0437\u0433\u043e\u0442\u043e\u0432\u043b\u0435\u043d\u0430 \u0432 2020 \u0433.\r\n\u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0430\u044f \u0424\u0435\u0434\u0435\u0440\u0430\u0446\u0438\u044f","customerName":"\"\u0410\u0421\u0422\u0420\u0410\u0425\u0410\u041d\u0421\u041a\u0410\u042f \u041a\u041b\u0418\u041d\u0418\u0427\u0415\u0421\u041a\u0410\u042f \u0411\u041e\u041b\u042c\u041d\u0418\u0426\u0410\" \u0424\u0415\u0414\u0415\u0420\u0410\u041b\u042c\u041d\u041e\u0413\u041e \u0413\u041e\u0421\u0423\u0414\u0410\u0420\u0421\u0422\u0412\u0415\u041d\u041d\u041e\u0413\u041e \u0411\u042e\u0414\u0416\u0415\u0422\u041d\u041e\u0413\u041e \u0423\u0427\u0420\u0415\u0416\u0414\u0415\u041d\u0418\u042f \u0417\u0414\u0420\u0410\u0412\u041e\u041e\u0425\u0420\u0410\u041d\u0415\u041d\u0418\u042f \"\u042e\u0416\u041d\u042b\u0419 \u041e\u041a\u0420\u0423\u0416\u041d\u041e\u0419 \u041c\u0415\u0414\u0418\u0426\u0418\u041d\u0421\u041a\u0418\u0419 \u0426\u0415\u041d\u0422\u0420 \u0424\u0415\u0414\u0415\u0420\u0410\u041b\u042c\u041d\u041e\u0413\u041e \u041c\u0415\u0414\u0418\u041a\u041e-\u0411\u0418\u041e\u041b\u041e\u0413\u0418\u0427\u0415\u0421\u041a\u041e\u0413\u041e \u0410\u0413\u0415\u041d\u0422\u0421\u0422\u0412\u0410\"","customerAddress":"\u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0430\u044f \u0424\u0435\u0434\u0435\u0440\u0430\u0446\u0438\u044f, 414016, \u0410\u0441\u0442\u0440\u0430\u0445\u0430\u043d\u0441\u043a\u0430\u044f \u043e\u0431\u043b, \u0410\u0441\u0442\u0440\u0430\u0445\u0430\u043d\u044c \u0433, \u0443\u043b \u0427\u041a\u0410\u041b\u041e\u0412\u0410, 80\/95\/1","execution":{"startDate":"2020-12-14T00:00:00","endDate":"2021-01-30T00:00:00"},"price":18962.490000000002,"ndfl":78897,"url":"http:\/\/zakupki.gov.ru\/epz\/contract\/contractCard\/common-info.html?reestrNumber=1616706334420001009","other":0}
 
@@ -254,14 +277,13 @@ class Main extends Component {
                 <Container>
                     <Grid>
                         <Grid.Column mobile={16} tablet={8} computer={10}>
-                            <h1>Узнай что купили на твои налоги</h1>
-                            <div className="ya-share2" data-curtain data-services="vkontakte,facebook,odnoklassniki,telegram,twitter,viber,whatsapp"></div>
+                            <h1>Узнайте, что купили на ваши налоги</h1>
                             <div className='telegram-link'>
-                                <a href='http://t.me/sellusnalogbot' target='_blank'><Icon name='telegram' size='large' />@sellusnalogbot</a>
+                                Попробуйте нашего <a href='http://t.me/sellusnalogbot' target='_blank'>телеграм-бота</a>
                             </div>
-                            <div className='github-link'>
-                                <a href='https://github.com/miksrv/hakaton-audition/' target='_blank'><Icon name='github' size='large' />GitHub</a>
-                            </div>
+                            {/*<div className='github-link'>*/}
+                            {/*    <a href='https://github.com/miksrv/hakaton-audition/' target='_blank'><Icon name='github' size='large' />GitHub</a>*/}
+                            {/*</div>*/}
                         </Grid.Column>
                         <Grid.Column mobile={16} tablet={8} computer={6}>
                                 {(_.isEmpty(dataJSON)) ? (
@@ -299,7 +321,7 @@ class Main extends Component {
                                                     settings={{
                                                         start: experience_month,
                                                         min: 0,
-                                                        max: 12,
+                                                        max: 11,
                                                         step: 1,
                                                         onChange: value => {
                                                             this.setState({ experience_month: value })
@@ -356,14 +378,35 @@ class Main extends Component {
                                     <div className='panel'>
                                         {!_.isNull(dataJSON.product) ? (
                                             <div className='center'>
-                                                <p>За <b>{experience_year}</b> {this.declOfNum(experience_year, ['год', 'года', 'лет'])} и <b>{experience_month}</b> {this.declOfNum(experience_month, ['месяц', 'месяца', 'месяцев'])} вы заплатили из своей зарплаты <b>{(Math.round((amount/0.87)*0.13) * this.totalMonth(experience_month, experience_year)).toLocaleString()} ₽</b> налоговых отчислений.</p>
-                                                <p>На эту сумму в учреждение:</p>
-                                                <p className='customer'>{dataJSON.customerName}</p>
-                                                <p>Находящееся по адресу:</p>
-                                                <p className='customer'>{dataJSON.customerAddress}</p>
+                                                {(typeof id !== undefined && !_.isEmpty(id) && !_.isEmpty(dataJSON)) ? (
+                                                    <p>За <b>{this.convertMonth(dataJSON.response.start)}</b> я заплатил <b>{dataJSON.ndfl.toLocaleString()} ₽</b> налоговых отчислений из своей зарплаты.</p>
+                                                ) : (
+                                                    <p>За <b>{experience_year}</b> {this.declOfNum(experience_year, ['год', 'года', 'лет'])} и <b>{experience_month}</b> {this.declOfNum(experience_month, ['месяц', 'месяца', 'месяцев'])} вы заплатили из своей зарплаты <b>{(Math.round((amount/0.87)*0.13) * this.totalMonth(experience_month, experience_year)).toLocaleString()} ₽</b> налоговых отчислений.</p>
+                                                )}
+                                                {(dataJSON.other > 0) ? (
+                                                    <p>Благодаря налогам еще {dataJSON.other} {this.declOfNum(dataJSON.other, ['человек', 'человека', 'людей'])} в учреждение:</p>
+                                                ) : (
+                                                    <p>На эту сумму в учреждение:</p>
+                                                )}
+                                                <p className='customer'>{this.convertHTML(dataJSON.customerName)}</p>
+                                                {(!_.isEmpty(dataJSON.customerAddress)) && (
+                                                    <>
+                                                        <p>Находящееся по адресу:</p>
+                                                        <p className='customer'>{dataJSON.customerAddress}</p>
+                                                    </>
+                                                )}
                                                 <p>Было закуплено:</p>
                                                 <p className='customer'><a href={dataJSON.url} target='_blank'>{dataJSON.product}</a></p>
                                                 <p>Спасибо за ваш вклад в развитие региона!</p>
+                                                <YandexShare
+                                                    content={{
+                                                        title: 'Что было куплено на мои налоги',
+                                                        description: 'Попробуйте новый сервис - Что было куплено на Ваши налоги и поделитесь результатом!',
+                                                        image: 'https://sellus-hackathon.ru/images/Calculator.png',
+                                                        url: 'https://sellus-hackathon.ru/id/' + dataJSON.code
+                                                    }}
+                                                    theme={{ lang: 'ru', services: 'vkontakte,facebook,odnoklassniki,telegram,twitter,viber,whatsapp' }}
+                                                />
                                                 <br/>
                                             </div>
                                         ) : (
