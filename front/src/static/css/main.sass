@@ -1,3 +1,7 @@
+//@font-face
+//    font-family: 'DelaGothicOne'
+//    src: local('DelaGothicOne'), url('/static/fonts/DelaGothicOne-Regular.ttf') format('truetype')
+
 $main-color: #212121
 
 $background-color: #FFF
@@ -5,11 +9,14 @@ $card-background-color: #1b1c1d
 $font-stack: sans-serif
 
 $panel-color: #000542
-$second-color: #090996
+$second-color: #0064DC
 
 *:not(.icon)
     outline: none
     font-family: $font-stack !important
+
+#root
+    max-width: 98% !important
 
 body
     color: $main-color
@@ -72,9 +79,18 @@ p
     font-weight: 700
     text-transform: none
 
+.ui.selection.dropdown
+    background-color: #EEF5FB !important
+    color: $main-color !important
+    text-align: center !important
+    padding: .6em 1em !important
+    min-height: .6em !important
+
+.ui.form .field>.selection.dropdown>.dropdown.icon
+    line-height: .7em !important
 
 .panel
-    background-color: rgba(253, 242, 240, 0.7) //#e7e7ff
+    background-color: #EEF5FB //#e7e7ff
     border-radius: 4px
     box-sizing: border-box
     font-size: 16px
@@ -84,11 +100,7 @@ p
     color: $panel-color
 
     h3
-        text-transform: uppercase
         color: $panel-color
-        border-bottom: 2px solid #FF6955
-        padding-bottom: 15px
-        margin-bottom: 15px
 
     .slider
         margin-bottom: 1em
@@ -106,10 +118,13 @@ p
         font-weight: 100 !important
 
     .nalog
-        padding: .5em 0
-        border-top: 1px solid #FF6955
-        border-bottom: 1px solid #FF6955
+        padding: .8em 0
+        border-top: 1px solid #c1d1ea
+        border-bottom: 1px solid #c1d1ea
         margin: 1em 0
+
+        .value
+            color: #0C2248
 
 .telegram-link, .github-link
     margin-top: 15em
@@ -118,6 +133,8 @@ p
 .github-link
     margin-top: 1em
 
+.form-select-control-word, .form-select-control-region
+    font-size: .8em !important
 
 .center
     text-align: center
@@ -138,3 +155,6 @@ p
 
 .semantic_ui_range_inner
     margin: 0 !important
+
+.semantic_ui_range_inner > div:nth-child(3), .semantic_ui_range_inner > div:nth-child(2)
+    background-color: $second-color !important

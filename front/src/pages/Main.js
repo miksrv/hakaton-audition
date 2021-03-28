@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { Container, Form, Select, Button, Message, Header, Grid, Dimmer, Loader, Icon } from 'semantic-ui-react'
+import { Container, Form, Select, Button, Grid, Dimmer, Loader } from 'semantic-ui-react'
 import { Slider } from 'react-semantic-ui-range'
+import Carousel from 'infinite-react-carousel'
 import YandexShare from 'react-yandex-share'
 
 import moment from 'moment'
@@ -294,14 +295,14 @@ class Main extends Component {
                                             </Dimmer>
                                         )}
                                         <div className='panel'>
-                                            <h3>Введите свои данные</h3>
+                                            <h3>За какой период считаем налог</h3>
                                             <div className='slider'>
                                                 <div className='slider-label'>
-                                                    <label>Выберите период</label>
+                                                    <label></label>
                                                     <div className='value'>{experience_year} {this.declOfNum(experience_year, ['год', 'года', 'лет'])}</div>
                                                 </div>
                                                 <Slider
-                                                    color="red"
+                                                    color="blue"
                                                     settings={{
                                                         start: experience_year,
                                                         min: 0,
@@ -317,7 +318,7 @@ class Main extends Component {
                                                     <div className='value'>{experience_month} {this.declOfNum(experience_month, ['месяц', 'месяца', 'месяцев'])}</div>
                                                 </div>
                                                 <Slider
-                                                    color="red"
+                                                    color="blue"
                                                     settings={{
                                                         start: experience_month,
                                                         min: 0,
@@ -331,11 +332,11 @@ class Main extends Component {
                                             </div>
                                             <div className='slider'>
                                                 <div className='slider-label'>
-                                                    <label>Моя среднемесячная зарплата</label>
+                                                    <label>Моя средняя зарплата</label>
                                                     <div className='value'>{amount.toLocaleString()} ₽</div>
                                                 </div>
                                                 <Slider
-                                                    color="red"
+                                                    color="blue"
                                                     settings={{
                                                         start: amount,
                                                         min: 7000,
@@ -348,6 +349,16 @@ class Main extends Component {
                                                 />
                                             </div>
                                             <Form.Field
+                                                name='word'
+                                                control={Select}
+                                                options={genderOptions}
+                                                label={{ children: 'Сфера деятельности', htmlFor: 'form-select-control-word' }}
+                                                placeholder='Выберите свою сферу деятельности'
+                                                search
+                                                searchInput={{ id: 'form-select-control-word' }}
+                                                onChange={this.handleChange}
+                                            />
+                                            <Form.Field
                                                 name='region'
                                                 control={Select}
                                                 options={regionOptions}
@@ -357,21 +368,11 @@ class Main extends Component {
                                                 searchInput={{ id: 'form-select-control-region' }}
                                                 onChange={this.handleChange}
                                             />
-                                            <Form.Field
-                                                name='word'
-                                                control={Select}
-                                                options={genderOptions}
-                                                label={{ children: 'Моя сфера деятельности', htmlFor: 'form-select-control-word' }}
-                                                placeholder='Выберите свою сферу деятельности'
-                                                search
-                                                searchInput={{ id: 'form-select-control-word' }}
-                                                onChange={this.handleChange}
-                                            />
                                             <div className='nalog'>
                                                 <div className='name'>Оплаченный налог</div>
                                                 <div className='value'>{(Math.round((amount/0.87)*0.13) * this.totalMonth(experience_month, experience_year)).toLocaleString()} ₽</div>
                                             </div>
-                                            <Button type='submit' disabled={errors} fluid color='red'>Узнать</Button>
+                                            <Button type='submit' disabled={errors} fluid color='blue'>Узнать</Button>
                                         </div>
                                     </Form>
                                 ) : (
@@ -414,13 +415,17 @@ class Main extends Component {
                                         )}
                                         {/*<div>{JSON.stringify(dataJSON, null, 2)}</div>*/}
                                         {/*<br /><br /><br />*/}
-                                        <Button onClick={this.handleNew} fluid color='red'>Новый расчет</Button>
+                                        <Button onClick={this.handleNew} fluid color='blue'>Новый расчет</Button>
                                     </div>
                                 )}
                         </Grid.Column>
                     </Grid>
                     <img src='/images/frame1.png' className='frame' />
-                    <img src='/images/frame2.png' className='frame' />
+                    <Carousel>
+                        <img src='/images/frame2.png' className='frame' />
+                        <img src='/images/frame3.png' className='frame' />
+                        <img src='/images/frame4.png' className='frame' />
+                    </Carousel>
                 </Container>
             </MainContainer>
         )

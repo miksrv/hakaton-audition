@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.8.3",
+    "infinite-react-carousel": "^1.2.11",
     "moment": "^2.29.1",
     "react": "^17.0.2",
     "react-datetime": "^3.0.4",
