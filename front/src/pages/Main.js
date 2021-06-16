@@ -202,7 +202,7 @@ class Main extends Component {
 
     handleSubmit = () => {
         const { dispatch } = this.props
-        const { start, region, amount, word, experience_year, experience_month } = this.state
+        const { region, amount, word, experience_year, experience_month } = this.state
 
         this.setState({ formLoader: true })
         this.startTimer()
